@@ -1,0 +1,372 @@
+{
+ "id": "expert-001",
+ "level": "expert",
+ "cols": 9,
+ "rows": 11,
+ "layout": [
+  "#.#.#.#.#",
+  ".........",
+  "#.#......",
+  ".........",
+  "#...#..#.",
+  ".........",
+  "#.....#.#",
+  "...#.....",
+  "#.#..#...",
+  ".........",
+  "#........"
+ ],
+ "solution": [
+  "#E#M#L#R#",
+  "ULTERIEUR",
+  "#E#CONTEE",
+  "ACHETEURS",
+  "#TAN#AI#T",
+  "NOMADISME",
+  "#RATER#I#",
+  "LAC#SEINS",
+  "#L#CI#ROI",
+  "DESORMAIS",
+  "#SAISISSE"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 9,
+   "answer": "ULTERIEUR",
+   "forms": [
+    "ultérieur"
+   ],
+   "rank": 27648,
+   "clue": "Qui viendra après"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 3,
+   "n": 6,
+   "answer": "CONTEE",
+   "forms": [
+    "contée"
+   ],
+   "rank": 51374,
+   "clue": "Narrée au coin du feu"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 9,
+   "answer": "ACHETEURS",
+   "forms": [
+    "acheteurs"
+   ],
+   "rank": 9422,
+   "clue": "Ils font tourner les boutiques"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 3,
+   "answer": "TAN",
+   "forms": [
+    "tan"
+   ],
+   "rank": 16492,
+   "clue": "Écorce de chêne broyée"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 5,
+   "n": 2,
+   "answer": "AI",
+   "forms": [
+    "ai",
+    "aï"
+   ],
+   "rank": 43,
+   "clue": "Paresseux d'Amazonie"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 9,
+   "answer": "NOMADISME",
+   "forms": [
+    "nomadisme"
+   ],
+   "rank": 54125,
+   "clue": "Vie sans domicile fixe"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 5,
+   "answer": "RATER",
+   "forms": [
+    "rater"
+   ],
+   "rank": 6017,
+   "clue": "Manquer sa cible"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 3,
+   "answer": "LAC",
+   "forms": [
+    "lac"
+   ],
+   "rank": 1774,
+   "clue": "Il dort au creux des montagnes"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 4,
+   "n": 5,
+   "answer": "SEINS",
+   "forms": [
+    "seins"
+   ],
+   "rank": 4098,
+   "clue": "Sacrifice d'Amazone"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 3,
+   "n": 2,
+   "answer": "CI",
+   "forms": [
+    "ci"
+   ],
+   "rank": 263,
+   "clue": "Par-... par-là"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 6,
+   "n": 3,
+   "answer": "ROI",
+   "forms": [
+    "roi"
+   ],
+   "rank": 546,
+   "clue": "Il règne ou mène la partie"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 9,
+   "answer": "DESORMAIS",
+   "forms": [
+    "désormais"
+   ],
+   "rank": 897,
+   "clue": "À partir de maintenant"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 1,
+   "n": 8,
+   "answer": "SAISISSE",
+   "forms": [
+    "saisisse"
+   ],
+   "rank": 51729,
+   "clue": "Comprenne au vol"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 11,
+   "answer": "ELECTORALES",
+   "forms": [
+    "électorales"
+   ],
+   "rank": 8948,
+   "clue": "Listes ou promesses de campagne"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 7,
+   "answer": "MECENAT",
+   "forms": [
+    "mécénat"
+   ],
+   "rank": 22626,
+   "clue": "Soutien des arts"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 8,
+   "answer": "LINEAIRE",
+   "forms": [
+    "linéaire"
+   ],
+   "rank": 9867,
+   "clue": "Sans relief ni détour"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 4,
+   "answer": "RUER",
+   "forms": [
+    "ruer"
+   ],
+   "rank": 39988,
+   "clue": "Lancer les sabots"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 3,
+   "answer": "ROT",
+   "forms": [
+    "rot"
+   ],
+   "rank": 34729,
+   "clue": "Bruit de fin de repas"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 5,
+   "answer": "ETUIS",
+   "forms": [
+    "étuis"
+   ],
+   "rank": 47702,
+   "clue": "Abris de lunettes"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 5,
+   "answer": "RESTE",
+   "forms": [
+    "reste",
+    "resté"
+   ],
+   "rank": 204,
+   "clue": "Ce qui demeure"
+  },
+  {
+   "d": "V",
+   "r": 3,
+   "c": 2,
+   "n": 5,
+   "answer": "HAMAC",
+   "forms": [
+    "hamac"
+   ],
+   "rank": 37355,
+   "clue": "Lit suspendu"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 4,
+   "n": 6,
+   "answer": "DESIRS",
+   "forms": [
+    "désirs"
+   ],
+   "rank": 7818,
+   "clue": "Envies"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 7,
+   "n": 6,
+   "answer": "MINOIS",
+   "forms": [
+    "minois"
+   ],
+   "rank": 49222,
+   "clue": "Joli visage"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 6,
+   "n": 4,
+   "answer": "IRAS",
+   "forms": [
+    "iras"
+   ],
+   "rank": 16162,
+   "clue": "Te rendras"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 8,
+   "n": 4,
+   "answer": "SISE",
+   "forms": [
+    "sise"
+   ],
+   "rank": 28350,
+   "clue": "Située, en droit"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 3,
+   "n": 3,
+   "answer": "COI",
+   "forms": [
+    "coi"
+   ],
+   "rank": 40675,
+   "clue": "Muet de surprise"
+  },
+  {
+   "d": "V",
+   "r": 9,
+   "c": 2,
+   "n": 2,
+   "answer": "SA",
+   "forms": [
+    "sa"
+   ],
+   "rank": 56,
+   "clue": "Possessif"
+  },
+  {
+   "d": "V",
+   "r": 9,
+   "c": 5,
+   "n": 2,
+   "answer": "MI",
+   "forms": [
+    "mi"
+   ],
+   "rank": 1444,
+   "clue": "Note ou moitié"
+  }
+ ]
+}

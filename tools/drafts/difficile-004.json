@@ -1,0 +1,421 @@
+{
+ "id": "difficile-004",
+ "level": "difficile",
+ "cols": 9,
+ "rows": 11,
+ "layout": [
+  "#.#.#.#.#",
+  ".........",
+  "#........",
+  ".....#...",
+  "##.#....#",
+  "....#....",
+  "#....#...",
+  ".......##",
+  "#...#....",
+  "....#....",
+  "#.....#.."
+ ],
+ "solution": [
+  "#S#P#F#R#",
+  "RECUPEREE",
+  "#MACARONS",
+  "GERER#SOT",
+  "##I#ISSU#",
+  "ACTE#AIES",
+  "#RAVI#GRE",
+  "CATALAN##",
+  "#MIL#ROBE",
+  "REVU#CLOT",
+  "#REELS#NE"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 9,
+   "answer": "RECUPEREE",
+   "forms": [
+    "récupérée"
+   ],
+   "rank": 24376,
+   "clue": "Remise en état ou rattrapée"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 8,
+   "answer": "MACARONS",
+   "forms": [
+    "macarons"
+   ],
+   "rank": 29427,
+   "clue": "Douceurs aux amandes"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 5,
+   "answer": "GERER",
+   "forms": [
+    "gérer"
+   ],
+   "rank": 1815,
+   "clue": "Tenir les rênes"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 6,
+   "n": 3,
+   "answer": "SOT",
+   "forms": [
+    "sot"
+   ],
+   "rank": 27624,
+   "clue": "Nigaud"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 4,
+   "n": 4,
+   "answer": "ISSU",
+   "forms": [
+    "issu"
+   ],
+   "rank": 4768,
+   "clue": "Descendant"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 4,
+   "answer": "ACTE",
+   "forms": [
+    "acte"
+   ],
+   "rank": 1352,
+   "clue": "Partie de pièce"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 5,
+   "n": 4,
+   "answer": "AIES",
+   "forms": [
+    "aies"
+   ],
+   "rank": 9591,
+   "clue": "Possèdes, au subjonctif"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 4,
+   "answer": "RAVI",
+   "forms": [
+    "ravi"
+   ],
+   "rank": 7361,
+   "clue": "Aux anges"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 6,
+   "n": 3,
+   "answer": "GRE",
+   "forms": [
+    "gré"
+   ],
+   "rank": 5766,
+   "clue": "De bon ..., volontiers"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 7,
+   "answer": "CATALAN",
+   "forms": [
+    "catalan"
+   ],
+   "rank": 11358,
+   "clue": "De Barcelone"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 1,
+   "n": 3,
+   "answer": "MIL",
+   "forms": [
+    "mil"
+   ],
+   "rank": 17998,
+   "clue": "Céréale africaine"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 5,
+   "n": 4,
+   "answer": "ROBE",
+   "forms": [
+    "robe"
+   ],
+   "rank": 2146,
+   "clue": "Elle se porte au tribunal"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 4,
+   "answer": "REVU",
+   "forms": [
+    "revu"
+   ],
+   "rank": 7366,
+   "clue": "Relu et corrigé"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 5,
+   "n": 4,
+   "answer": "CLOT",
+   "forms": [
+    "clôt"
+   ],
+   "rank": 25594,
+   "clue": "Achève"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 1,
+   "n": 5,
+   "answer": "REELS",
+   "forms": [
+    "réels"
+   ],
+   "rank": 5917,
+   "clue": "Bien concrets"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 7,
+   "n": 2,
+   "answer": "NE",
+   "forms": [
+    "ne",
+    "né"
+   ],
+   "rank": 29,
+   "clue": "Venu au jour"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 4,
+   "answer": "SEME",
+   "forms": [
+    "semé",
+    "sème"
+   ],
+   "rank": 16233,
+   "clue": "Répandu à la volée"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 4,
+   "answer": "PUCE",
+   "forms": [
+    "puce"
+   ],
+   "rank": 7613,
+   "clue": "Mémoire électronique"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 3,
+   "answer": "FER",
+   "forms": [
+    "fer"
+   ],
+   "rank": 1261,
+   "clue": "Métal du forgeron"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 7,
+   "answer": "RENOUER",
+   "forms": [
+    "renouer"
+   ],
+   "rank": 18304,
+   "clue": "Reprendre le fil"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 10,
+   "answer": "CARITATIVE",
+   "forms": [
+    "caritative"
+   ],
+   "rank": 27356,
+   "clue": "Au service des démunis"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 4,
+   "answer": "PARI",
+   "forms": [
+    "pari"
+   ],
+   "rank": 5482,
+   "clue": "Coup de poker"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 9,
+   "answer": "ROSSIGNOL",
+   "forms": [
+    "rossignol"
+   ],
+   "rank": 18863,
+   "clue": "Chanteur de nuit ou passe-partout"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 3,
+   "answer": "EST",
+   "forms": [
+    "est"
+   ],
+   "rank": 7,
+   "clue": "Orient"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 5,
+   "n": 2,
+   "answer": "SA",
+   "forms": [
+    "sa"
+   ],
+   "rank": 56,
+   "clue": "Possessif"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 1,
+   "n": 6,
+   "answer": "CRAMER",
+   "forms": [
+    "cramer"
+   ],
+   "rank": 16849,
+   "clue": "Brûler, familièrement"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 3,
+   "n": 6,
+   "answer": "EVALUE",
+   "forms": [
+    "évalué",
+    "évalue"
+   ],
+   "rank": 12291,
+   "clue": "Estime la valeur"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 8,
+   "n": 2,
+   "answer": "SE",
+   "forms": [
+    "se"
+   ],
+   "rank": 35,
+   "clue": "Pronom réfléchi"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 4,
+   "n": 2,
+   "answer": "IL",
+   "forms": [
+    "il"
+   ],
+   "rank": 17,
+   "clue": "Lui en sujet"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 5,
+   "n": 4,
+   "answer": "ARCS",
+   "forms": [
+    "arcs"
+   ],
+   "rank": 12518,
+   "clue": "Courbes de voûtes"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 7,
+   "n": 3,
+   "answer": "BON",
+   "forms": [
+    "bon"
+   ],
+   "rank": 107,
+   "clue": "Ticket ou généreux"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 8,
+   "n": 3,
+   "answer": "ETE",
+   "forms": [
+    "été"
+   ],
+   "rank": 64,
+   "clue": "Saison des vacances"
+  }
+ ]
+}

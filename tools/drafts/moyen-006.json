@@ -1,0 +1,359 @@
+{
+ "id": "moyen-006",
+ "level": "moyen",
+ "cols": 9,
+ "rows": 10,
+ "layout": [
+  "#.#.#.#.#",
+  "....#....",
+  "#......#.",
+  "....#...#",
+  "#...#....",
+  "...#.#...",
+  "##.......",
+  ".....#.#.",
+  "#........",
+  "........."
+ ],
+ "solution": [
+  "#S#N#T#C#",
+  "RACE#EMET",
+  "#VOUDRA#A",
+  "GOLF#RIS#",
+  "#ILS#ETAT",
+  "PRE#G#RUE",
+  "##CARNETS",
+  "BATIE#S#T",
+  "#CINEASTE",
+  "DEFENSEUR"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 4,
+   "answer": "RACE",
+   "forms": [
+    "race"
+   ],
+   "rank": 2097,
+   "clue": "Lignée d'animaux"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 5,
+   "n": 4,
+   "answer": "EMET",
+   "forms": [
+    "émet"
+   ],
+   "rank": 9946,
+   "clue": "Diffuse"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 6,
+   "answer": "VOUDRA",
+   "forms": [
+    "voudra"
+   ],
+   "rank": 7131,
+   "clue": "Souhaitera"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 4,
+   "answer": "GOLF",
+   "forms": [
+    "golf"
+   ],
+   "rank": 4236,
+   "clue": "Sport à dix-huit trous"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 5,
+   "n": 3,
+   "answer": "RIS",
+   "forms": [
+    "ris"
+   ],
+   "rank": 10395,
+   "clue": "Thymus du veau"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 3,
+   "answer": "ILS",
+   "forms": [
+    "ils"
+   ],
+   "rank": 53,
+   "clue": "Pronom pluriel"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 5,
+   "n": 4,
+   "answer": "ETAT",
+   "forms": [
+    "état"
+   ],
+   "rank": 199,
+   "clue": "Nation ou condition"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 3,
+   "answer": "PRE",
+   "forms": [
+    "pré"
+   ],
+   "rank": 2848,
+   "clue": "Pâturage"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 6,
+   "n": 3,
+   "answer": "RUE",
+   "forms": [
+    "rue",
+    "rué"
+   ],
+   "rank": 437,
+   "clue": "Voie en ville"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 2,
+   "n": 7,
+   "answer": "CARNETS",
+   "forms": [
+    "carnets"
+   ],
+   "rank": 13987,
+   "clue": "Petits cahiers"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 5,
+   "answer": "BATIE",
+   "forms": [
+    "bâtie"
+   ],
+   "rank": 14619,
+   "clue": "Construite"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 1,
+   "n": 8,
+   "answer": "CINEASTE",
+   "forms": [
+    "cinéaste"
+   ],
+   "rank": 10468,
+   "clue": "Réalisateur de films"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 9,
+   "answer": "DEFENSEUR",
+   "forms": [
+    "défenseur"
+   ],
+   "rank": 4325,
+   "clue": "Arrière au football"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 6,
+   "answer": "SAVOIR",
+   "forms": [
+    "savoir"
+   ],
+   "rank": 250,
+   "clue": "Connaissance"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 5,
+   "answer": "NEUFS",
+   "forms": [
+    "neufs"
+   ],
+   "rank": 10036,
+   "clue": "Jamais servis"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 5,
+   "answer": "TERRE",
+   "forms": [
+    "terre",
+    "terré"
+   ],
+   "rank": 385,
+   "clue": "Planète bleue"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 2,
+   "answer": "CE",
+   "forms": [
+    "ce"
+   ],
+   "rank": 24,
+   "clue": "Démonstratif"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 9,
+   "answer": "COLLECTIF",
+   "forms": [
+    "collectif"
+   ],
+   "rank": 2413,
+   "clue": "Groupe solidaire"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 9,
+   "answer": "MAITRESSE",
+   "forms": [
+    "maîtresse"
+   ],
+   "rank": 5366,
+   "clue": "Institutrice"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 2,
+   "answer": "TA",
+   "forms": [
+    "ta"
+   ],
+   "rank": 180,
+   "clue": "Possessif"
+  },
+  {
+   "d": "V",
+   "r": 3,
+   "c": 7,
+   "n": 4,
+   "answer": "SAUT",
+   "forms": [
+    "saut"
+   ],
+   "rank": 5186,
+   "clue": "Bond"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 8,
+   "n": 6,
+   "answer": "TESTER",
+   "forms": [
+    "tester"
+   ],
+   "rank": 3879,
+   "clue": "Mettre à l'essai"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 4,
+   "n": 5,
+   "answer": "GREEN",
+   "forms": [
+    "green"
+   ],
+   "rank": 5984,
+   "clue": "Gazon autour du trou"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 3,
+   "n": 4,
+   "answer": "AINE",
+   "forms": [
+    "aîné",
+    "aine"
+   ],
+   "rank": 6927,
+   "clue": "Premier-né"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 1,
+   "n": 3,
+   "answer": "ACE",
+   "forms": [
+    "ace"
+   ],
+   "rank": 14188,
+   "clue": "Service gagnant"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 5,
+   "n": 2,
+   "answer": "AS",
+   "forms": [
+    "as"
+   ],
+   "rank": 134,
+   "clue": "Champion"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 7,
+   "n": 2,
+   "answer": "TU",
+   "forms": [
+    "tu"
+   ],
+   "rank": 39,
+   "clue": "Pronom familier"
+  }
+ ]
+}

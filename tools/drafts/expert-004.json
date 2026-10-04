@@ -1,0 +1,373 @@
+{
+ "id": "expert-004",
+ "level": "expert",
+ "cols": 9,
+ "rows": 11,
+ "layout": [
+  "#.#.#.#.#",
+  ".........",
+  "#.#......",
+  ".........",
+  "#.......#",
+  "...##....",
+  "#.#..#...",
+  ".......##",
+  "#........",
+  ".........",
+  "#...#...."
+ ],
+ "solution": [
+  "#D#E#M#L#",
+  "REMPLACES",
+  "#M#AUMONE",
+  "TOURNANTS",
+  "#INSENSE#",
+  "USE##SAUT",
+  "#E#SE#CRU",
+  "ALLUMER##",
+  "#LIBEREES",
+  "PENITENCE",
+  "#SOT#STUC"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 9,
+   "answer": "REMPLACES",
+   "forms": [
+    "remplacés",
+    "remplaces"
+   ],
+   "rank": 10569,
+   "clue": "Pris au pied levé"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 3,
+   "n": 6,
+   "answer": "AUMONE",
+   "forms": [
+    "aumône"
+   ],
+   "rank": 27326,
+   "clue": "Obole au mendiant"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 9,
+   "answer": "TOURNANTS",
+   "forms": [
+    "tournants"
+   ],
+   "rank": 46495,
+   "clue": "Virages décisifs"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 7,
+   "answer": "INSENSE",
+   "forms": [
+    "insensé"
+   ],
+   "rank": 18229,
+   "clue": "Qui défie la raison"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 3,
+   "answer": "USE",
+   "forms": [
+    "use",
+    "usé"
+   ],
+   "rank": 10096,
+   "clue": "Râpé aux coudes"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 5,
+   "n": 4,
+   "answer": "SAUT",
+   "forms": [
+    "saut"
+   ],
+   "rank": 5186,
+   "clue": "Bond au-dessus de la haie"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 3,
+   "n": 2,
+   "answer": "SE",
+   "forms": [
+    "se"
+   ],
+   "rank": 35,
+   "clue": "Pronom réfléchi"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 6,
+   "n": 3,
+   "answer": "CRU",
+   "forms": [
+    "cru",
+    "crû"
+   ],
+   "rank": 1325,
+   "clue": "Vignoble classé"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 7,
+   "answer": "ALLUMER",
+   "forms": [
+    "allumer"
+   ],
+   "rank": 8328,
+   "clue": "Donner le feu vert à l'ampoule"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 1,
+   "n": 8,
+   "answer": "LIBEREES",
+   "forms": [
+    "libérées"
+   ],
+   "rank": 22604,
+   "clue": "Rendues à elles-mêmes"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 9,
+   "answer": "PENITENCE",
+   "forms": [
+    "pénitence"
+   ],
+   "rank": 23325,
+   "clue": "Expiation de la faute"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 1,
+   "n": 3,
+   "answer": "SOT",
+   "forms": [
+    "sot"
+   ],
+   "rank": 27624,
+   "clue": "Benêt"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 5,
+   "n": 4,
+   "answer": "STUC",
+   "forms": [
+    "stuc"
+   ],
+   "rank": 51152,
+   "clue": "Faux marbre"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 11,
+   "answer": "DEMOISELLES",
+   "forms": [
+    "demoiselles"
+   ],
+   "rank": 17107,
+   "clue": "Libellules ou jeunes filles"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 5,
+   "answer": "EPARS",
+   "forms": [
+    "épars"
+   ],
+   "rank": 36216,
+   "clue": "Disséminés"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 6,
+   "answer": "MAMANS",
+   "forms": [
+    "mamans"
+   ],
+   "rank": 12615,
+   "clue": "Elles bordent le soir"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 7,
+   "answer": "LENTEUR",
+   "forms": [
+    "lenteur"
+   ],
+   "rank": 15425,
+   "clue": "Défaut de l'escargot"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 4,
+   "answer": "LUNE",
+   "forms": [
+    "lune"
+   ],
+   "rank": 2044,
+   "clue": "Elle a ses quartiers"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 10,
+   "answer": "CONSACRENT",
+   "forms": [
+    "consacrent"
+   ],
+   "rank": 20965,
+   "clue": "Vouent entièrement"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 3,
+   "answer": "SES",
+   "forms": [
+    "ses"
+   ],
+   "rank": 66,
+   "clue": "Les siens"
+  },
+  {
+   "d": "V",
+   "r": 3,
+   "c": 2,
+   "n": 3,
+   "answer": "UNE",
+   "forms": [
+    "une"
+   ],
+   "rank": 15,
+   "clue": "Première page"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 8,
+   "n": 2,
+   "answer": "TU",
+   "forms": [
+    "tu"
+   ],
+   "rank": 39,
+   "clue": "Tais-toi, version courte"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 3,
+   "n": 5,
+   "answer": "SUBIT",
+   "forms": [
+    "subit"
+   ],
+   "rank": 5612,
+   "clue": "Soudain"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 4,
+   "n": 4,
+   "answer": "EMET",
+   "forms": [
+    "émet"
+   ],
+   "rank": 9946,
+   "clue": "Diffuse sur les ondes"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 2,
+   "n": 4,
+   "answer": "LINO",
+   "forms": [
+    "lino"
+   ],
+   "rank": 25719,
+   "clue": "Revêtement de sol"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 5,
+   "n": 4,
+   "answer": "ERES",
+   "forms": [
+    "ères"
+   ],
+   "rank": 53704,
+   "clue": "Grandes divisions du temps"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 7,
+   "n": 3,
+   "answer": "ECU",
+   "forms": [
+    "écu"
+   ],
+   "rank": 28024,
+   "clue": "Bouclier ou pièce ancienne"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 8,
+   "n": 3,
+   "answer": "SEC",
+   "forms": [
+    "sec"
+   ],
+   "rank": 2896,
+   "clue": "Comme un coup de trique"
+  }
+ ]
+}

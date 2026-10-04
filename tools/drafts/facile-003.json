@@ -1,0 +1,246 @@
+{
+ "id": "facile-003",
+ "level": "facile",
+ "cols": 7,
+ "rows": 8,
+ "layout": [
+  "#.#.#.#",
+  ".......",
+  "#..#...",
+  ".......",
+  "#.#..##",
+  ".......",
+  "#.#....",
+  "...#..."
+ ],
+ "solution": [
+  "#D#S#L#",
+  "DEVENUS",
+  "#SI#AXE",
+  "MINUTES",
+  "#G#NU##",
+  "INTERET",
+  "#E#SERA",
+  "PRE#LES"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 7,
+   "answer": "DEVENUS",
+   "forms": [
+    "devenus"
+   ],
+   "rank": 4140,
+   "clue": "Transformés"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 2,
+   "answer": "SI",
+   "forms": [
+    "si"
+   ],
+   "rank": 45,
+   "clue": "Note ou condition"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 4,
+   "n": 3,
+   "answer": "AXE",
+   "forms": [
+    "axe",
+    "axé"
+   ],
+   "rank": 3315,
+   "clue": "Ligne centrale"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 7,
+   "answer": "MINUTES",
+   "forms": [
+    "minutes"
+   ],
+   "rank": 401,
+   "clue": "Soixante dans une heure"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 3,
+   "n": 2,
+   "answer": "NU",
+   "forms": [
+    "nu"
+   ],
+   "rank": 3696,
+   "clue": "Sans vêtements"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 7,
+   "answer": "INTERET",
+   "forms": [
+    "intérêt"
+   ],
+   "rank": 615,
+   "clue": "Curiosité"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 3,
+   "n": 4,
+   "answer": "SERA",
+   "forms": [
+    "sera"
+   ],
+   "rank": 145,
+   "clue": "Futur du verbe être"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 3,
+   "answer": "PRE",
+   "forms": [
+    "pré"
+   ],
+   "rank": 2848,
+   "clue": "Petit champ"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 4,
+   "n": 3,
+   "answer": "LES",
+   "forms": [
+    "les",
+    "lès"
+   ],
+   "rank": 6,
+   "clue": "Article pluriel"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 8,
+   "answer": "DESIGNER",
+   "forms": [
+    "désigner"
+   ],
+   "rank": 5126,
+   "clue": "Nommer ou choisir"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 2,
+   "answer": "SE",
+   "forms": [
+    "se"
+   ],
+   "rank": 35,
+   "clue": "Pronom réfléchi"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 4,
+   "answer": "LUXE",
+   "forms": [
+    "luxe"
+   ],
+   "rank": 2833,
+   "clue": "Grand confort coûteux"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 3,
+   "answer": "VIN",
+   "forms": [
+    "vin"
+   ],
+   "rank": 1382,
+   "clue": "Rouge, blanc ou rosé"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 7,
+   "answer": "NATUREL",
+   "forms": [
+    "naturel"
+   ],
+   "rank": 1601,
+   "clue": "Sans artifice"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 3,
+   "answer": "SES",
+   "forms": [
+    "ses"
+   ],
+   "rank": 66,
+   "clue": "À lui ou à elle"
+  },
+  {
+   "d": "V",
+   "r": 3,
+   "c": 3,
+   "n": 4,
+   "answer": "UNES",
+   "forms": [
+    "unes"
+   ],
+   "rank": 4814,
+   "clue": "Premières pages des journaux"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 5,
+   "n": 3,
+   "answer": "ERE",
+   "forms": [
+    "ère"
+   ],
+   "rank": 3814,
+   "clue": "Longue époque"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 6,
+   "n": 3,
+   "answer": "TAS",
+   "forms": [
+    "tas"
+   ],
+   "rank": 2391,
+   "clue": "Amas"
+  }
+ ]
+}

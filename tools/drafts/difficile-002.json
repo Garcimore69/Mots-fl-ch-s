@@ -1,0 +1,408 @@
+{
+ "id": "difficile-002",
+ "level": "difficile",
+ "cols": 9,
+ "rows": 11,
+ "layout": [
+  "#.#.#.#.#",
+  "....#....",
+  "#........",
+  ".....#...",
+  "#.......#",
+  "...#...#.",
+  "#........",
+  "....#....",
+  "#...#....",
+  "..#...#..",
+  "#.....#.."
+ ],
+ "solution": [
+  "#O#I#E#O#",
+  "ARCS#PARI",
+  "#TROPICAL",
+  "PHILO#QUE",
+  "#ONEREUX#",
+  "AGI#CLE#P",
+  "#RESSERRE",
+  "PARA#VIES",
+  "#PEU#ARIA",
+  "EH#REG#NI",
+  "#EMANE#ET"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 4,
+   "answer": "ARCS",
+   "forms": [
+    "arcs"
+   ],
+   "rank": 12518,
+   "clue": "Ils décochent des flèches"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 5,
+   "n": 4,
+   "answer": "PARI",
+   "forms": [
+    "pari"
+   ],
+   "rank": 5482,
+   "clue": "Mise sur l'avenir"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 8,
+   "answer": "TROPICAL",
+   "forms": [
+    "tropical"
+   ],
+   "rank": 18355,
+   "clue": "Chaud et humide"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 5,
+   "answer": "PHILO",
+   "forms": [
+    "philo"
+   ],
+   "rank": 12019,
+   "clue": "Matière du bac, en bref"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 6,
+   "n": 3,
+   "answer": "QUE",
+   "forms": [
+    "que"
+   ],
+   "rank": 12,
+   "clue": "Conjonction"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 7,
+   "answer": "ONEREUX",
+   "forms": [
+    "onéreux"
+   ],
+   "rank": 18266,
+   "clue": "Qui coûte cher"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 3,
+   "answer": "AGI",
+   "forms": [
+    "agi"
+   ],
+   "rank": 7395,
+   "clue": "Passé à l'acte"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 4,
+   "n": 3,
+   "answer": "CLE",
+   "forms": [
+    "clé"
+   ],
+   "rank": 1986,
+   "clue": "Elle ouvre bien des portes"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 8,
+   "answer": "RESSERRE",
+   "forms": [
+    "resserre",
+    "resserré"
+   ],
+   "rank": 27218,
+   "clue": "Rend plus étroit"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 4,
+   "answer": "PARA",
+   "forms": [
+    "para"
+   ],
+   "rank": 12630,
+   "clue": "Soldat du ciel"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 5,
+   "n": 4,
+   "answer": "VIES",
+   "forms": [
+    "vies"
+   ],
+   "rank": 3048,
+   "clue": "Existences"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 1,
+   "n": 3,
+   "answer": "PEU",
+   "forms": [
+    "peu"
+   ],
+   "rank": 94,
+   "clue": "Guère"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 5,
+   "n": 4,
+   "answer": "ARIA",
+   "forms": [
+    "aria"
+   ],
+   "rank": 23450,
+   "clue": "Air d'opéra"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 2,
+   "answer": "EH",
+   "forms": [
+    "eh"
+   ],
+   "rank": 1159,
+   "clue": "Interpellation"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 3,
+   "n": 3,
+   "answer": "REG",
+   "forms": [
+    "reg"
+   ],
+   "rank": 25468,
+   "clue": "Désert de cailloux"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 7,
+   "n": 2,
+   "answer": "NI",
+   "forms": [
+    "ni"
+   ],
+   "rank": 273,
+   "clue": "Ne va pas sans l'autre"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 1,
+   "n": 5,
+   "answer": "EMANE",
+   "forms": [
+    "émane"
+   ],
+   "rank": 20615,
+   "clue": "Provient"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 7,
+   "n": 2,
+   "answer": "ET",
+   "forms": [
+    "et"
+   ],
+   "rank": 3,
+   "clue": "Lie deux mots"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 11,
+   "answer": "ORTHOGRAPHE",
+   "forms": [
+    "orthographe"
+   ],
+   "rank": 6861,
+   "clue": "Bête noire de la dictée"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 5,
+   "answer": "ISOLE",
+   "forms": [
+    "isolé",
+    "isole"
+   ],
+   "rank": 6209,
+   "clue": "Mis à l'écart"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 3,
+   "answer": "EPI",
+   "forms": [
+    "épi"
+   ],
+   "rank": 26230,
+   "clue": "Tête de blé"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 5,
+   "answer": "ORAUX",
+   "forms": [
+    "oraux"
+   ],
+   "rank": 24311,
+   "clue": "Épreuves parlées"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 8,
+   "answer": "CRINIERE",
+   "forms": [
+    "crinière"
+   ],
+   "rank": 28121,
+   "clue": "Toison du lion"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 8,
+   "answer": "ACQUERIR",
+   "forms": [
+    "acquérir"
+   ],
+   "rank": 4905,
+   "clue": "Faire l'achat de"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 3,
+   "answer": "ILE",
+   "forms": [
+    "île"
+   ],
+   "rank": 1130,
+   "clue": "Bout de terre au large"
+  },
+  {
+   "d": "V",
+   "r": 2,
+   "c": 4,
+   "n": 5,
+   "answer": "PORCS",
+   "forms": [
+    "porcs"
+   ],
+   "rank": 12217,
+   "clue": "Cochons"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 5,
+   "n": 7,
+   "answer": "ELEVAGE",
+   "forms": [
+    "élevage"
+   ],
+   "rank": 5204,
+   "clue": "Activité de l'éleveur"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 8,
+   "n": 6,
+   "answer": "PESAIT",
+   "forms": [
+    "pesait"
+   ],
+   "rank": 22648,
+   "clue": "Accablait"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 3,
+   "n": 5,
+   "answer": "SAURA",
+   "forms": [
+    "saura"
+   ],
+   "rank": 5185,
+   "clue": "Connaîtra"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 7,
+   "n": 5,
+   "answer": "REINE",
+   "forms": [
+    "reine"
+   ],
+   "rank": 1634,
+   "clue": "Pièce maîtresse aux échecs"
+  },
+  {
+   "d": "V",
+   "r": 9,
+   "c": 4,
+   "n": 2,
+   "answer": "EN",
+   "forms": [
+    "en"
+   ],
+   "rank": 8,
+   "clue": "Préposition"
+  }
+ ]
+}

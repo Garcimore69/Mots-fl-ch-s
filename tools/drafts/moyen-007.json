@@ -1,0 +1,362 @@
+{
+ "id": "moyen-007",
+ "level": "moyen",
+ "cols": 9,
+ "rows": 10,
+ "layout": [
+  "#.#.#.#.#",
+  "..#......",
+  "#....#...",
+  ".......#.",
+  "#....#...",
+  ".........",
+  "#...#.#.#",
+  "..#......",
+  "#.#......",
+  ".....#..."
+ ],
+ "solution": [
+  "#F#E#I#U#",
+  "VA#TALENT",
+  "#CHOC#LIE",
+  "FIANCEE#I",
+  "#LUNE#VIN",
+  "DETESTENT",
+  "#MER#U#V#",
+  "NE#AURAIT",
+  "#N#INCITE",
+  "ETATS#LES"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 2,
+   "answer": "VA",
+   "forms": [
+    "va"
+   ],
+   "rank": 83,
+   "clue": "Se rend"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 3,
+   "n": 6,
+   "answer": "TALENT",
+   "forms": [
+    "talent"
+   ],
+   "rank": 2340,
+   "clue": "Don particulier"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 4,
+   "answer": "CHOC",
+   "forms": [
+    "choc"
+   ],
+   "rank": 2663,
+   "clue": "Collision"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 6,
+   "n": 3,
+   "answer": "LIE",
+   "forms": [
+    "lié",
+    "lie"
+   ],
+   "rank": 2524,
+   "clue": "Attaché"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 7,
+   "answer": "FIANCEE",
+   "forms": [
+    "fiancée"
+   ],
+   "rank": 10705,
+   "clue": "Future mariée"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 4,
+   "answer": "LUNE",
+   "forms": [
+    "lune"
+   ],
+   "rank": 2044,
+   "clue": "Astre des nuits"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 6,
+   "n": 3,
+   "answer": "VIN",
+   "forms": [
+    "vin"
+   ],
+   "rank": 1382,
+   "clue": "Il vieillit en cave"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 9,
+   "answer": "DETESTENT",
+   "forms": [
+    "détestent"
+   ],
+   "rank": 11758,
+   "clue": "Ont en horreur"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 3,
+   "answer": "MER",
+   "forms": [
+    "mer"
+   ],
+   "rank": 656,
+   "clue": "Étendue salée"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 2,
+   "answer": "NE",
+   "forms": [
+    "ne",
+    "né"
+   ],
+   "rank": 29,
+   "clue": "Mis au monde"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 3,
+   "n": 6,
+   "answer": "AURAIT",
+   "forms": [
+    "aurait"
+   ],
+   "rank": 240,
+   "clue": "Posséderait"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 3,
+   "n": 6,
+   "answer": "INCITE",
+   "forms": [
+    "incite",
+    "incité"
+   ],
+   "rank": 10177,
+   "clue": "Pousse à agir"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 5,
+   "answer": "ETATS",
+   "forms": [
+    "états"
+   ],
+   "rank": 562,
+   "clue": "Pays"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 6,
+   "n": 3,
+   "answer": "LES",
+   "forms": [
+    "les",
+    "lès"
+   ],
+   "rank": 6,
+   "clue": "Article pluriel"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 10,
+   "answer": "FACILEMENT",
+   "forms": [
+    "facilement"
+   ],
+   "rank": 1260,
+   "clue": "Sans peine"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 10,
+   "answer": "ETONNERAIT",
+   "forms": [
+    "étonnerait"
+   ],
+   "rank": 14584,
+   "clue": "Surprendrait"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 2,
+   "answer": "IL",
+   "forms": [
+    "il"
+   ],
+   "rank": 17,
+   "clue": "Pronom masculin"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 3,
+   "answer": "UNI",
+   "forms": [
+    "uni"
+   ],
+   "rank": 2302,
+   "clue": "Sans motif"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 5,
+   "answer": "ACCES",
+   "forms": [
+    "accès"
+   ],
+   "rank": 764,
+   "clue": "Entrée"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 5,
+   "answer": "ELEVE",
+   "forms": [
+    "élevé",
+    "élève"
+   ],
+   "rank": 1464,
+   "clue": "Écolier"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 5,
+   "answer": "TEINT",
+   "forms": [
+    "teint"
+   ],
+   "rank": 8627,
+   "clue": "Couleur du visage"
+  },
+  {
+   "d": "V",
+   "r": 2,
+   "c": 2,
+   "n": 5,
+   "answer": "HAUTE",
+   "forms": [
+    "haute"
+   ],
+   "rank": 789,
+   "clue": "Perchée"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 7,
+   "n": 6,
+   "answer": "INVITE",
+   "forms": [
+    "invité",
+    "invite"
+   ],
+   "rank": 2083,
+   "clue": "Convive"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 5,
+   "n": 4,
+   "answer": "TURC",
+   "forms": [
+    "turc"
+   ],
+   "rank": 5935,
+   "clue": "D'Istanbul"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 4,
+   "n": 3,
+   "answer": "UNS",
+   "forms": [
+    "uns"
+   ],
+   "rank": 2254,
+   "clue": "Les ... et les autres"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 6,
+   "n": 3,
+   "answer": "AIL",
+   "forms": [
+    "ail"
+   ],
+   "rank": 9425,
+   "clue": "Gousse en cuisine"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 8,
+   "n": 3,
+   "answer": "TES",
+   "forms": [
+    "tes"
+   ],
+   "rank": 296,
+   "clue": "Les tiens"
+  }
+ ]
+}

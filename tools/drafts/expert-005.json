@@ -1,0 +1,420 @@
+{
+ "id": "expert-005",
+ "level": "expert",
+ "cols": 9,
+ "rows": 11,
+ "layout": [
+  "#.#.#.#.#",
+  "....#....",
+  "##....#..",
+  "...#...#.",
+  "#.##.....",
+  ".....#...",
+  "#...##...",
+  ".........",
+  "#.#......",
+  "....#....",
+  "#....#..."
+ ],
+ "solution": [
+  "#M#E#J#A#",
+  "NEFS#ORME",
+  "##ITOU#EU",
+  "ACE#NID#R",
+  "#H##CREDO",
+  "CASTE#SEP",
+  "#PUR##OTE",
+  "REDEMARRE",
+  "#L#PARDON",
+  "DEJA#CRIN",
+  "#TEST#ETE"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 4,
+   "answer": "NEFS",
+   "forms": [
+    "nefs"
+   ],
+   "rank": 36969,
+   "clue": "Vaisseaux de cathédrale"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 5,
+   "n": 4,
+   "answer": "ORME",
+   "forms": [
+    "orme"
+   ],
+   "rank": 34227,
+   "clue": "Arbre aux feuilles dentées"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 2,
+   "n": 4,
+   "answer": "ITOU",
+   "forms": [
+    "itou"
+   ],
+   "rank": 52766,
+   "clue": "Pareillement, à la campagne"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 7,
+   "n": 2,
+   "answer": "EU",
+   "forms": [
+    "eu"
+   ],
+   "rank": 162,
+   "clue": "Dupé"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 3,
+   "answer": "ACE",
+   "forms": [
+    "ace"
+   ],
+   "rank": 14188,
+   "clue": "Balle imprenable"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 4,
+   "n": 3,
+   "answer": "NID",
+   "forms": [
+    "nid"
+   ],
+   "rank": 7870,
+   "clue": "Douillet logis à plumes"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 4,
+   "n": 5,
+   "answer": "CREDO",
+   "forms": [
+    "credo"
+   ],
+   "rank": 22818,
+   "clue": "Profession de foi"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 5,
+   "answer": "CASTE",
+   "forms": [
+    "caste"
+   ],
+   "rank": 16314,
+   "clue": "Classe fermée"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 6,
+   "n": 3,
+   "answer": "SEP",
+   "forms": [
+    "sep"
+   ],
+   "rank": 24773,
+   "clue": "Pièce de charrue"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 3,
+   "answer": "PUR",
+   "forms": [
+    "pur"
+   ],
+   "rank": 3033,
+   "clue": "Sans mélange"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 6,
+   "n": 3,
+   "answer": "OTE",
+   "forms": [
+    "ôte",
+    "ôté"
+   ],
+   "rank": 25180,
+   "clue": "Retire"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 9,
+   "answer": "REDEMARRE",
+   "forms": [
+    "redémarre",
+    "redémarré"
+   ],
+   "rank": 31212,
+   "clue": "Repart après la panne"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 3,
+   "n": 6,
+   "answer": "PARDON",
+   "forms": [
+    "pardon"
+   ],
+   "rank": 2788,
+   "clue": "Excuse ou fête bretonne"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 4,
+   "answer": "DEJA",
+   "forms": [
+    "déjà"
+   ],
+   "rank": 121,
+   "clue": "Dès maintenant"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 5,
+   "n": 4,
+   "answer": "CRIN",
+   "forms": [
+    "crin"
+   ],
+   "rank": 42256,
+   "clue": "Poil de cheval"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 1,
+   "n": 4,
+   "answer": "TEST",
+   "forms": [
+    "test"
+   ],
+   "rank": 1723,
+   "clue": "Mise à l'épreuve"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 6,
+   "n": 3,
+   "answer": "ETE",
+   "forms": [
+    "été"
+   ],
+   "rank": 64,
+   "clue": "Époque des moissons"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 2,
+   "answer": "ME",
+   "forms": [
+    "me"
+   ],
+   "rank": 59,
+   "clue": "Pronom personnel"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 3,
+   "answer": "EST",
+   "forms": [
+    "est"
+   ],
+   "rank": 7,
+   "clue": "Orient"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 5,
+   "answer": "JOUIR",
+   "forms": [
+    "jouir"
+   ],
+   "rank": 9860,
+   "clue": "Profiter pleinement"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 3,
+   "answer": "AME",
+   "forms": [
+    "âme"
+   ],
+   "rank": 1546,
+   "clue": "Elle anime le violon"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 3,
+   "answer": "FIE",
+   "forms": [
+    "fie"
+   ],
+   "rank": 16362,
+   "clue": "Remets-t'en"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 10,
+   "answer": "EUROPEENNE",
+   "forms": [
+    "européenne"
+   ],
+   "rank": 999,
+   "clue": "Elle a le cœur à Bruxelles"
+  },
+  {
+   "d": "V",
+   "r": 2,
+   "c": 4,
+   "n": 4,
+   "answer": "ONCE",
+   "forms": [
+    "once"
+   ],
+   "rank": 11814,
+   "clue": "Petite quantité ou félin"
+  },
+  {
+   "d": "V",
+   "r": 3,
+   "c": 1,
+   "n": 8,
+   "answer": "CHAPELET",
+   "forms": [
+    "chapelet"
+   ],
+   "rank": 26292,
+   "clue": "Rosaire"
+  },
+  {
+   "d": "V",
+   "r": 3,
+   "c": 6,
+   "n": 8,
+   "answer": "DESORDRE",
+   "forms": [
+    "désordre"
+   ],
+   "rank": 8994,
+   "clue": "Pagaille"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 7,
+   "n": 7,
+   "answer": "DETROIT",
+   "forms": [
+    "détroit"
+   ],
+   "rank": 11037,
+   "clue": "Passage marin resserré"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 2,
+   "n": 3,
+   "answer": "SUD",
+   "forms": [
+    "sud"
+   ],
+   "rank": 438,
+   "clue": "Pôle opposé"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 3,
+   "n": 6,
+   "answer": "TREPAS",
+   "forms": [
+    "trépas"
+   ],
+   "rank": 47083,
+   "clue": "Grand passage, en poésie"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 4,
+   "n": 2,
+   "answer": "MA",
+   "forms": [
+    "ma"
+   ],
+   "rank": 92,
+   "clue": "Possessif"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 5,
+   "n": 3,
+   "answer": "ARC",
+   "forms": [
+    "arc"
+   ],
+   "rank": 3179,
+   "clue": "Il a sa corde"
+  },
+  {
+   "d": "V",
+   "r": 9,
+   "c": 2,
+   "n": 2,
+   "answer": "JE",
+   "forms": [
+    "je"
+   ],
+   "rank": 20,
+   "clue": "Moi en sujet"
+  }
+ ]
+}

@@ -1,0 +1,398 @@
+{
+ "id": "expert-006",
+ "level": "expert",
+ "cols": 9,
+ "rows": 11,
+ "layout": [
+  "#.#.#.#.#",
+  ".........",
+  "#........",
+  "....##...",
+  "#......#.",
+  "...#.....",
+  "##.......",
+  "..#.#...#",
+  "##.......",
+  "...#.....",
+  "#........"
+ ],
+ "solution": [
+  "#M#C#F#I#",
+  "MORALISTE",
+  "#RESULTER",
+  "ROSE##AMI",
+  "#STRICT#G",
+  "NEE#CAUSE",
+  "##SAINTES",
+  "BU#R#CAR#",
+  "##SCORIES",
+  "ETE#SERIE",
+  "#ECRASENT"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 9,
+   "answer": "MORALISTE",
+   "forms": [
+    "moraliste"
+   ],
+   "rank": 43022,
+   "clue": "Donneur de leçons"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 8,
+   "answer": "RESULTER",
+   "forms": [
+    "résulter"
+   ],
+   "rank": 25120,
+   "clue": "Découler"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 4,
+   "answer": "ROSE",
+   "forms": [
+    "rose",
+    "rosé"
+   ],
+   "rank": 1604,
+   "clue": "Elle a ses épines"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 6,
+   "n": 3,
+   "answer": "AMI",
+   "forms": [
+    "ami"
+   ],
+   "rank": 664,
+   "clue": "Alter ego"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 6,
+   "answer": "STRICT",
+   "forms": [
+    "strict"
+   ],
+   "rank": 9392,
+   "clue": "Sans écart permis"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 3,
+   "answer": "NEE",
+   "forms": [
+    "née"
+   ],
+   "rank": 2725,
+   "clue": "Ainsi nommée au berceau"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 4,
+   "n": 5,
+   "answer": "CAUSE",
+   "forms": [
+    "cause",
+    "causé"
+   ],
+   "rank": 331,
+   "clue": "Bavarde ou motif"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 2,
+   "n": 7,
+   "answer": "SAINTES",
+   "forms": [
+    "saintes"
+   ],
+   "rank": 11297,
+   "clue": "Elles ont leur auréole"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 2,
+   "answer": "BU",
+   "forms": [
+    "bu"
+   ],
+   "rank": 5635,
+   "clue": "Éclusé"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 5,
+   "n": 3,
+   "answer": "CAR",
+   "forms": [
+    "car"
+   ],
+   "rank": 161,
+   "clue": "Autocar ou parce que"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 2,
+   "n": 7,
+   "answer": "SCORIES",
+   "forms": [
+    "scories"
+   ],
+   "rank": 53629,
+   "clue": "Résidus de fonte"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 3,
+   "answer": "ETE",
+   "forms": [
+    "été"
+   ],
+   "rank": 64,
+   "clue": "Saison du farniente"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 4,
+   "n": 5,
+   "answer": "SERIE",
+   "forms": [
+    "série"
+   ],
+   "rank": 471,
+   "clue": "Suite d'épisodes"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 1,
+   "n": 8,
+   "answer": "ECRASENT",
+   "forms": [
+    "écrasent"
+   ],
+   "rank": 31789,
+   "clue": "Dominent sans appel"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 6,
+   "answer": "MOROSE",
+   "forms": [
+    "morose"
+   ],
+   "rank": 29450,
+   "clue": "D'humeur grise"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 5,
+   "answer": "CASER",
+   "forms": [
+    "caser"
+   ],
+   "rank": 22195,
+   "clue": "Trouver une place à"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 3,
+   "answer": "FIL",
+   "forms": [
+    "fil"
+   ],
+   "rank": 1262,
+   "clue": "Il se perd parfois"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 4,
+   "answer": "ITEM",
+   "forms": [
+    "item"
+   ],
+   "rank": 19047,
+   "clue": "De même, dans un inventaire"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 6,
+   "answer": "RESTES",
+   "forms": [
+    "restes",
+    "restés"
+   ],
+   "rank": 4018,
+   "clue": "Reliefs du repas"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 2,
+   "answer": "LU",
+   "forms": [
+    "lu"
+   ],
+   "rank": 1332,
+   "clue": "Déchiffré"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 10,
+   "answer": "STATUTAIRE",
+   "forms": [
+    "statutaire"
+   ],
+   "rank": 33904,
+   "clue": "Conforme au règlement"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 6,
+   "answer": "ERIGES",
+   "forms": [
+    "érigés"
+   ],
+   "rank": 37134,
+   "clue": "Dressés vers le ciel"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 4,
+   "n": 3,
+   "answer": "ICI",
+   "forms": [
+    "ici"
+   ],
+   "rank": 152,
+   "clue": "En ce lieu"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 5,
+   "n": 7,
+   "answer": "CANCRES",
+   "forms": [
+    "cancres"
+   ],
+   "rank": 58477,
+   "clue": "Fonds de classe"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 7,
+   "n": 6,
+   "answer": "SEREIN",
+   "forms": [
+    "serein"
+   ],
+   "rank": 13060,
+   "clue": "Paisible"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 3,
+   "n": 3,
+   "answer": "ARC",
+   "forms": [
+    "arc"
+   ],
+   "rank": 3179,
+   "clue": "Courbe ou voûte"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 2,
+   "n": 3,
+   "answer": "SEC",
+   "forms": [
+    "sec"
+   ],
+   "rank": 2896,
+   "clue": "Sans eau ni sucre"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 4,
+   "n": 3,
+   "answer": "OSA",
+   "forms": [
+    "osa"
+   ],
+   "rank": 43046,
+   "clue": "Eut l'audace"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 8,
+   "n": 3,
+   "answer": "SET",
+   "forms": [
+    "set"
+   ],
+   "rank": 6757,
+   "clue": "Napperon ou manche"
+  },
+  {
+   "d": "V",
+   "r": 9,
+   "c": 1,
+   "n": 2,
+   "answer": "TE",
+   "forms": [
+    "te",
+    "té"
+   ],
+   "rank": 102,
+   "clue": "Toi, en complément"
+  }
+ ]
+}

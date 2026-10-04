@@ -1,0 +1,362 @@
+{
+ "id": "moyen-004",
+ "level": "moyen",
+ "cols": 9,
+ "rows": 10,
+ "layout": [
+  "#.#.#.#.#",
+  ".........",
+  "#.#......",
+  "......##.",
+  "#.#.#...#",
+  "...#.....",
+  "#..#.....",
+  ".....#.#.",
+  "#...#....",
+  "........."
+ ],
+ "solution": [
+  "#I#R#P#A#",
+  "INTEGRANT",
+  "#T#CREUSE",
+  "AERIEN##L",
+  "#R#T#DOT#",
+  "ARC#BRUIT",
+  "#OU#LEVRE",
+  "AGITE#E#T",
+  "#ERE#ORNE",
+  "PRESENTES"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 9,
+   "answer": "INTEGRANT",
+   "forms": [
+    "intégrant"
+   ],
+   "rank": 13815,
+   "clue": "Faisant entrer dans un tout"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 3,
+   "n": 6,
+   "answer": "CREUSE",
+   "forms": [
+    "creuse",
+    "creusé"
+   ],
+   "rank": 7416,
+   "clue": "Fait un trou"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 6,
+   "answer": "AERIEN",
+   "forms": [
+    "aérien"
+   ],
+   "rank": 6053,
+   "clue": "Qui vole dans le ciel"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 5,
+   "n": 3,
+   "answer": "DOT",
+   "forms": [
+    "dot"
+   ],
+   "rank": 12949,
+   "clue": "Apport de la mariée"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 3,
+   "answer": "ARC",
+   "forms": [
+    "arc"
+   ],
+   "rank": 3179,
+   "clue": "Il décoche des flèches"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 4,
+   "n": 5,
+   "answer": "BRUIT",
+   "forms": [
+    "bruit"
+   ],
+   "rank": 1620,
+   "clue": "Vacarme"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 2,
+   "answer": "OU",
+   "forms": [
+    "ou",
+    "où"
+   ],
+   "rank": 44,
+   "clue": "Ceci ... cela"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 4,
+   "n": 5,
+   "answer": "LEVRE",
+   "forms": [
+    "lèvre"
+   ],
+   "rank": 13422,
+   "clue": "Elle borde la bouche"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 5,
+   "answer": "AGITE",
+   "forms": [
+    "agité",
+    "agite"
+   ],
+   "rank": 14593,
+   "clue": "Nerveux, remuant"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 1,
+   "n": 3,
+   "answer": "ERE",
+   "forms": [
+    "ère"
+   ],
+   "rank": 3814,
+   "clue": "Grande époque"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 5,
+   "n": 4,
+   "answer": "ORNE",
+   "forms": [
+    "orné",
+    "orne"
+   ],
+   "rank": 13853,
+   "clue": "Décore"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 9,
+   "answer": "PRESENTES",
+   "forms": [
+    "présentes",
+    "présentés"
+   ],
+   "rank": 4437,
+   "clue": "Ici en personne"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 10,
+   "answer": "INTERROGER",
+   "forms": [
+    "interroger"
+   ],
+   "rank": 5991,
+   "clue": "Poser des questions"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 5,
+   "answer": "RECIT",
+   "forms": [
+    "récit"
+   ],
+   "rank": 2796,
+   "clue": "Histoire racontée"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 7,
+   "answer": "PRENDRE",
+   "forms": [
+    "prendre"
+   ],
+   "rank": 197,
+   "clue": "Saisir"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 3,
+   "answer": "ANS",
+   "forms": [
+    "ans"
+   ],
+   "rank": 89,
+   "clue": "Ils marquent l'âge"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 3,
+   "answer": "GRE",
+   "forms": [
+    "gré"
+   ],
+   "rank": 5766,
+   "clue": "Bon vouloir"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 2,
+   "answer": "AU",
+   "forms": [
+    "au"
+   ],
+   "rank": 23,
+   "clue": "Contraction de à le"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 3,
+   "answer": "TEL",
+   "forms": [
+    "tel"
+   ],
+   "rank": 572,
+   "clue": "Pareil"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 6,
+   "n": 6,
+   "answer": "OUVERT",
+   "forms": [
+    "ouvert"
+   ],
+   "rank": 1093,
+   "clue": "Pas fermé"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 7,
+   "n": 3,
+   "answer": "TIR",
+   "forms": [
+    "tir"
+   ],
+   "rank": 2968,
+   "clue": "Coup au but"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 2,
+   "n": 5,
+   "answer": "CUIRE",
+   "forms": [
+    "cuire"
+   ],
+   "rank": 7946,
+   "clue": "Passer au four"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 4,
+   "n": 3,
+   "answer": "BLE",
+   "forms": [
+    "blé"
+   ],
+   "rank": 5426,
+   "clue": "Céréale du pain"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 8,
+   "n": 5,
+   "answer": "TETES",
+   "forms": [
+    "têtes"
+   ],
+   "rank": 3047,
+   "clue": "Chefs"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 3,
+   "n": 3,
+   "answer": "TES",
+   "forms": [
+    "tes"
+   ],
+   "rank": 296,
+   "clue": "À toi"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 5,
+   "n": 2,
+   "answer": "ON",
+   "forms": [
+    "on"
+   ],
+   "rank": 28,
+   "clue": "Pronom indéfini"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 7,
+   "n": 2,
+   "answer": "NE",
+   "forms": [
+    "ne",
+    "né"
+   ],
+   "rank": 29,
+   "clue": "Venu au monde"
+  }
+ ]
+}

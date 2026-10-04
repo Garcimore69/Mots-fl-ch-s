@@ -1,0 +1,397 @@
+{
+ "id": "difficile-001",
+ "level": "difficile",
+ "cols": 9,
+ "rows": 11,
+ "layout": [
+  "#.#.#.#.#",
+  "......#..",
+  "#........",
+  "..#....#.",
+  "#..##....",
+  "....##...",
+  "#....#...",
+  "........#",
+  "#....#...",
+  ".........",
+  "#....#..."
+ ],
+ "solution": [
+  "#C#C#V#A#",
+  "BLOUSE#NE",
+  "#AUBERGES",
+  "AS#ETRE#P",
+  "#SA##ANSE",
+  "LEVA##TAC",
+  "#MOME#LIE",
+  "RECETTES#",
+  "#NANA#MIE",
+  "ATTENDANT",
+  "#SERT#NEE"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 6,
+   "answer": "BLOUSE",
+   "forms": [
+    "blouse"
+   ],
+   "rank": 17633,
+   "clue": "Vêtement d'écolier d'antan"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 7,
+   "n": 2,
+   "answer": "NE",
+   "forms": [
+    "ne",
+    "né"
+   ],
+   "rank": 29,
+   "clue": "Venu au jour"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 8,
+   "answer": "AUBERGES",
+   "forms": [
+    "auberges"
+   ],
+   "rank": 27702,
+   "clue": "Haltes pour voyageurs"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 2,
+   "answer": "AS",
+   "forms": [
+    "as"
+   ],
+   "rank": 134,
+   "clue": "Champion ou carte maîtresse"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 3,
+   "n": 4,
+   "answer": "ETRE",
+   "forms": [
+    "être"
+   ],
+   "rank": 51,
+   "clue": "Exister"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 2,
+   "answer": "SA",
+   "forms": [
+    "sa"
+   ],
+   "rank": 56,
+   "clue": "Possessif féminin"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 5,
+   "n": 4,
+   "answer": "ANSE",
+   "forms": [
+    "anse"
+   ],
+   "rank": 16058,
+   "clue": "Petite baie ou poignée"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 4,
+   "answer": "LEVA",
+   "forms": [
+    "leva"
+   ],
+   "rank": 18788,
+   "clue": "Dressa"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 6,
+   "n": 3,
+   "answer": "TAC",
+   "forms": [
+    "tac"
+   ],
+   "rank": 14368,
+   "clue": "Bruit sec et bref"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 4,
+   "answer": "MOME",
+   "forms": [
+    "môme"
+   ],
+   "rank": 14096,
+   "clue": "Gamin, en argot"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 6,
+   "n": 3,
+   "answer": "LIE",
+   "forms": [
+    "lié",
+    "lie"
+   ],
+   "rank": 2524,
+   "clue": "Attaché"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 8,
+   "answer": "RECETTES",
+   "forms": [
+    "recettes"
+   ],
+   "rank": 2641,
+   "clue": "Elles se suivent en cuisine"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 1,
+   "n": 4,
+   "answer": "NANA",
+   "forms": [
+    "nana"
+   ],
+   "rank": 6115,
+   "clue": "Fille, familièrement"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 6,
+   "n": 3,
+   "answer": "MIE",
+   "forms": [
+    "mie"
+   ],
+   "rank": 17189,
+   "clue": "Intérieur du pain"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 9,
+   "answer": "ATTENDANT",
+   "forms": [
+    "attendant"
+   ],
+   "rank": 1801,
+   "clue": "Patientant"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 1,
+   "n": 4,
+   "answer": "SERT",
+   "forms": [
+    "sert"
+   ],
+   "rank": 1072,
+   "clue": "Est utile"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 6,
+   "n": 3,
+   "answer": "NEE",
+   "forms": [
+    "née"
+   ],
+   "rank": 2725,
+   "clue": "Précède le nom de jeune fille"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 11,
+   "answer": "CLASSEMENTS",
+   "forms": [
+    "classements"
+   ],
+   "rank": 16321,
+   "clue": "Palmarès"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 4,
+   "answer": "CUBE",
+   "forms": [
+    "cube"
+   ],
+   "rank": 9978,
+   "clue": "Volume à six faces"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 5,
+   "answer": "VERRA",
+   "forms": [
+    "verra"
+   ],
+   "rank": 2203,
+   "clue": "Constatera plus tard"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 3,
+   "answer": "ANE",
+   "forms": [
+    "âne"
+   ],
+   "rank": 9576,
+   "clue": "Grison têtu"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 2,
+   "answer": "OU",
+   "forms": [
+    "ou",
+    "où"
+   ],
+   "rank": 44,
+   "clue": "Conjonction alternative"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 3,
+   "answer": "SET",
+   "forms": [
+    "set"
+   ],
+   "rank": 6757,
+   "clue": "Manche au tennis"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 6,
+   "answer": "ESPECE",
+   "forms": [
+    "espèce"
+   ],
+   "rank": 1026,
+   "clue": "Sorte"
+  },
+  {
+   "d": "V",
+   "r": 2,
+   "c": 6,
+   "n": 9,
+   "answer": "GENTLEMAN",
+   "forms": [
+    "gentleman"
+   ],
+   "rank": 17431,
+   "clue": "Homme du monde, outre-Manche"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 2,
+   "n": 7,
+   "answer": "AVOCATE",
+   "forms": [
+    "avocate"
+   ],
+   "rank": 9274,
+   "clue": "Défenseuse au tribunal"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 7,
+   "n": 7,
+   "answer": "SAISINE",
+   "forms": [
+    "saisine"
+   ],
+   "rank": 23685,
+   "clue": "Recours à un tribunal"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 3,
+   "n": 6,
+   "answer": "AMENER",
+   "forms": [
+    "amener"
+   ],
+   "rank": 3508,
+   "clue": "Conduire jusqu'ici"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 4,
+   "n": 5,
+   "answer": "ETANT",
+   "forms": [
+    "étant"
+   ],
+   "rank": 421,
+   "clue": "Se trouvant"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 8,
+   "n": 3,
+   "answer": "ETE",
+   "forms": [
+    "été"
+   ],
+   "rank": 64,
+   "clue": "Saison du bronzage"
+  }
+ ]
+}

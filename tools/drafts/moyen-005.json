@@ -1,0 +1,359 @@
+{
+ "id": "moyen-005",
+ "level": "moyen",
+ "cols": 9,
+ "rows": 10,
+ "layout": [
+  "#.#.#.#.#",
+  ".........",
+  "#........",
+  ".....#...",
+  "#.##...#.",
+  ".....##..",
+  "#...#....",
+  "......#..",
+  "##....#..",
+  "........."
+ ],
+ "solution": [
+  "#I#G#P#D#",
+  "IMPERATIF",
+  "#ARRETERA",
+  "AGEES#SAS",
+  "#I##TOT#C",
+  "ENTRA##MI",
+  "#ERE#BRIN",
+  "TRIPLE#LA",
+  "##BOUT#AN",
+  "TOUSSAINT"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 9,
+   "answer": "IMPERATIF",
+   "forms": [
+    "impératif"
+   ],
+   "rank": 11071,
+   "clue": "Mode des ordres"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 8,
+   "answer": "ARRETERA",
+   "forms": [
+    "arrêtera"
+   ],
+   "rank": 12102,
+   "clue": "Cessera"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 5,
+   "answer": "AGEES",
+   "forms": [
+    "âgées"
+   ],
+   "rank": 6258,
+   "clue": "Plus toutes jeunes"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 6,
+   "n": 3,
+   "answer": "SAS",
+   "forms": [
+    "sas"
+   ],
+   "rank": 10575,
+   "clue": "Pièce d'isolement"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 4,
+   "n": 3,
+   "answer": "TOT",
+   "forms": [
+    "tôt"
+   ],
+   "rank": 927,
+   "clue": "De bonne heure"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 5,
+   "answer": "ENTRA",
+   "forms": [
+    "entra"
+   ],
+   "rank": 13165,
+   "clue": "Pénétra"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 7,
+   "n": 2,
+   "answer": "MI",
+   "forms": [
+    "mi"
+   ],
+   "rank": 1444,
+   "clue": "Note de la gamme"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 3,
+   "answer": "ERE",
+   "forms": [
+    "ère"
+   ],
+   "rank": 3814,
+   "clue": "Période historique"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 5,
+   "n": 4,
+   "answer": "BRIN",
+   "forms": [
+    "brin"
+   ],
+   "rank": 10461,
+   "clue": "Fine tige d'herbe"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 6,
+   "answer": "TRIPLE",
+   "forms": [
+    "triple",
+    "triplé"
+   ],
+   "rank": 5301,
+   "clue": "Trois fois plus"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 7,
+   "n": 2,
+   "answer": "LA",
+   "forms": [
+    "la",
+    "là"
+   ],
+   "rank": 1,
+   "clue": "Note du diapason"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 2,
+   "n": 4,
+   "answer": "BOUT",
+   "forms": [
+    "bout"
+   ],
+   "rank": 608,
+   "clue": "Extrémité"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 7,
+   "n": 2,
+   "answer": "AN",
+   "forms": [
+    "an"
+   ],
+   "rank": 362,
+   "clue": "Douze mois"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 9,
+   "answer": "TOUSSAINT",
+   "forms": [
+    "toussaint"
+   ],
+   "rank": 12685,
+   "clue": "Fête du 1er novembre"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 8,
+   "answer": "IMAGINER",
+   "forms": [
+    "imaginer"
+   ],
+   "rank": 2480,
+   "clue": "Inventer en pensée"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 4,
+   "answer": "GERE",
+   "forms": [
+    "gère",
+    "géré"
+   ],
+   "rank": 4238,
+   "clue": "Administre"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 3,
+   "answer": "PAT",
+   "forms": [
+    "pat"
+   ],
+   "rank": 10371,
+   "clue": "Nulle aux échecs"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 4,
+   "answer": "DIRA",
+   "forms": [
+    "dira"
+   ],
+   "rank": 3836,
+   "clue": "Racontera"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 3,
+   "answer": "PRE",
+   "forms": [
+    "pré"
+   ],
+   "rank": 2848,
+   "clue": "Petit champ"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 5,
+   "answer": "RESTA",
+   "forms": [
+    "resta"
+   ],
+   "rank": 10062,
+   "clue": "Demeura"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 4,
+   "answer": "TEST",
+   "forms": [
+    "test"
+   ],
+   "rank": 1723,
+   "clue": "Épreuve"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 9,
+   "answer": "FASCINANT",
+   "forms": [
+    "fascinant"
+   ],
+   "rank": 10158,
+   "clue": "Captivant"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 2,
+   "n": 5,
+   "answer": "TRIBU",
+   "forms": [
+    "tribu"
+   ],
+   "rank": 6668,
+   "clue": "Grande famille"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 3,
+   "n": 5,
+   "answer": "REPOS",
+   "forms": [
+    "repos"
+   ],
+   "rank": 2893,
+   "clue": "Détente"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 7,
+   "n": 5,
+   "answer": "MILAN",
+   "forms": [
+    "milan"
+   ],
+   "rank": 3940,
+   "clue": "Rapace à queue fourchue"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 5,
+   "n": 4,
+   "answer": "BETA",
+   "forms": [
+    "bêta"
+   ],
+   "rank": 13983,
+   "clue": "Lettre grecque"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 4,
+   "n": 3,
+   "answer": "LUS",
+   "forms": [
+    "lus"
+   ],
+   "rank": 12612,
+   "clue": "Parcourus des yeux"
+  }
+ ]
+}

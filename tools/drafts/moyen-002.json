@@ -1,0 +1,348 @@
+{
+ "id": "moyen-002",
+ "level": "moyen",
+ "cols": 9,
+ "rows": 10,
+ "layout": [
+  "#.#.#.#.#",
+  "..#......",
+  "#...#....",
+  "....#....",
+  "#........",
+  "......##.",
+  "#.#..#...",
+  ".........",
+  "#....#...",
+  "....#...."
+ ],
+ "solution": [
+  "#E#A#V#U#",
+  "EN#CLIENT",
+  "#LAC#AGIR",
+  "REVU#BATI",
+  "#VIEILLES",
+  "DESIRE##T",
+  "#M#LA#PRE",
+  "REPLIQUES",
+  "#NUIT#CAS",
+  "ETES#MELE"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 2,
+   "answer": "EN",
+   "forms": [
+    "en"
+   ],
+   "rank": 8,
+   "clue": "Préposition de lieu"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 3,
+   "n": 6,
+   "answer": "CLIENT",
+   "forms": [
+    "client"
+   ],
+   "rank": 1654,
+   "clue": "Acheteur fidèle"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 3,
+   "answer": "LAC",
+   "forms": [
+    "lac"
+   ],
+   "rank": 1774,
+   "clue": "Étendue d'eau douce"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 5,
+   "n": 4,
+   "answer": "AGIR",
+   "forms": [
+    "agir"
+   ],
+   "rank": 1759,
+   "clue": "Passer à l'action"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 4,
+   "answer": "REVU",
+   "forms": [
+    "revu"
+   ],
+   "rank": 7366,
+   "clue": "Examiné à nouveau"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 5,
+   "n": 4,
+   "answer": "BATI",
+   "forms": [
+    "bâti"
+   ],
+   "rank": 7533,
+   "clue": "Construit"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 8,
+   "answer": "VIEILLES",
+   "forms": [
+    "vieilles"
+   ],
+   "rank": 4390,
+   "clue": "Âgées"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 6,
+   "answer": "DESIRE",
+   "forms": [
+    "désire",
+    "désiré"
+   ],
+   "rank": 6814,
+   "clue": "Souhaite"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 3,
+   "n": 2,
+   "answer": "LA",
+   "forms": [
+    "la",
+    "là"
+   ],
+   "rank": 1,
+   "clue": "Note après sol"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 6,
+   "n": 3,
+   "answer": "PRE",
+   "forms": [
+    "pré"
+   ],
+   "rank": 2848,
+   "clue": "Herbage"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 9,
+   "answer": "REPLIQUES",
+   "forms": [
+    "répliques"
+   ],
+   "rank": 14354,
+   "clue": "Réponses vives"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 1,
+   "n": 4,
+   "answer": "NUIT",
+   "forms": [
+    "nuit"
+   ],
+   "rank": 355,
+   "clue": "Heures sombres"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 6,
+   "n": 3,
+   "answer": "CAS",
+   "forms": [
+    "cas"
+   ],
+   "rank": 156,
+   "clue": "Situation particulière"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 4,
+   "answer": "ETES",
+   "forms": [
+    "êtes",
+    "étés"
+   ],
+   "rank": 361,
+   "clue": "Saisons chaudes"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 5,
+   "n": 4,
+   "answer": "MELE",
+   "forms": [
+    "mêle",
+    "mêlé"
+   ],
+   "rank": 7866,
+   "clue": "Embrouille"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 10,
+   "answer": "ENLEVEMENT",
+   "forms": [
+    "enlèvement"
+   ],
+   "rank": 7557,
+   "clue": "Ramassage des ordures"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 10,
+   "answer": "ACCUEILLIS",
+   "forms": [
+    "accueillis"
+   ],
+   "rank": 12893,
+   "clue": "Reçus chez soi"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 6,
+   "answer": "VIABLE",
+   "forms": [
+    "viable"
+   ],
+   "rank": 14819,
+   "clue": "Qui peut durer"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 5,
+   "answer": "UNITE",
+   "forms": [
+    "unité"
+   ],
+   "rank": 1426,
+   "clue": "Le un"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 4,
+   "answer": "EGAL",
+   "forms": [
+    "égal"
+   ],
+   "rank": 4456,
+   "clue": "Identique"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 9,
+   "answer": "TRISTESSE",
+   "forms": [
+    "tristesse"
+   ],
+   "rank": 5410,
+   "clue": "Chagrin"
+  },
+  {
+   "d": "V",
+   "r": 2,
+   "c": 2,
+   "n": 4,
+   "answer": "AVIS",
+   "forms": [
+    "avis"
+   ],
+   "rank": 502,
+   "clue": "Opinion"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 4,
+   "n": 5,
+   "answer": "IRAIT",
+   "forms": [
+    "irait"
+   ],
+   "rank": 8257,
+   "clue": "Se rendrait"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 6,
+   "n": 4,
+   "answer": "PUCE",
+   "forms": [
+    "puce"
+   ],
+   "rank": 7613,
+   "clue": "Petit insecte sauteur"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 7,
+   "n": 4,
+   "answer": "REAL",
+   "forms": [
+    "réal"
+   ],
+   "rank": 13902,
+   "clue": "Ancienne monnaie espagnole"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 2,
+   "n": 3,
+   "answer": "PUE",
+   "forms": [
+    "pue"
+   ],
+   "rank": 7744,
+   "clue": "Sent très mauvais"
+  }
+ ]
+}

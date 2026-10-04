@@ -1,0 +1,358 @@
+{
+ "id": "moyen-003",
+ "level": "moyen",
+ "cols": 9,
+ "rows": 10,
+ "layout": [
+  "#.#.#.#.#",
+  ".........",
+  "#........",
+  ".....#.#.",
+  "#...#....",
+  "......#.#",
+  "#...#....",
+  "....##.#.",
+  "#.#......",
+  "......#.."
+ ],
+ "solution": [
+  "#M#F#N#S#",
+  "VALORISER",
+  "#CURIEUSE",
+  "MONTS#B#A",
+  "#NEE#CIEL",
+  "ENTREE#A#",
+  "#ETE#SEUL",
+  "ORES##U#I",
+  "#I#SORTIE",
+  "GENESE#LU"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 9,
+   "answer": "VALORISER",
+   "forms": [
+    "valoriser"
+   ],
+   "rank": 12081,
+   "clue": "Mettre en valeur"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 8,
+   "answer": "CURIEUSE",
+   "forms": [
+    "curieuse"
+   ],
+   "rank": 9811,
+   "clue": "Qui veut tout savoir"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 5,
+   "answer": "MONTS",
+   "forms": [
+    "monts"
+   ],
+   "rank": 9875,
+   "clue": "Sommets"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 3,
+   "answer": "NEE",
+   "forms": [
+    "née"
+   ],
+   "rank": 2725,
+   "clue": "Venue au monde"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 5,
+   "n": 4,
+   "answer": "CIEL",
+   "forms": [
+    "ciel"
+   ],
+   "rank": 1084,
+   "clue": "Il est bleu par beau temps"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 6,
+   "answer": "ENTREE",
+   "forms": [
+    "entrée"
+   ],
+   "rank": 751,
+   "clue": "Début du repas"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 3,
+   "answer": "ETE",
+   "forms": [
+    "été"
+   ],
+   "rank": 64,
+   "clue": "Saison chaude"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 5,
+   "n": 4,
+   "answer": "SEUL",
+   "forms": [
+    "seul"
+   ],
+   "rank": 217,
+   "clue": "Sans compagnie"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 4,
+   "answer": "ORES",
+   "forms": [
+    "ores"
+   ],
+   "rank": 13852,
+   "clue": "D'... et déjà"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 3,
+   "n": 6,
+   "answer": "SORTIE",
+   "forms": [
+    "sortie"
+   ],
+   "rank": 622,
+   "clue": "Issue"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 6,
+   "answer": "GENESE",
+   "forms": [
+    "genèse"
+   ],
+   "rank": 10711,
+   "clue": "Origine, naissance"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 7,
+   "n": 2,
+   "answer": "LU",
+   "forms": [
+    "lu"
+   ],
+   "rank": 1332,
+   "clue": "Parcouru des yeux"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 10,
+   "answer": "MACONNERIE",
+   "forms": [
+    "maçonnerie"
+   ],
+   "rank": 10902,
+   "clue": "Travail du bâtisseur"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 10,
+   "answer": "FORTERESSE",
+   "forms": [
+    "forteresse"
+   ],
+   "rank": 9166,
+   "clue": "Citadelle"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 3,
+   "answer": "NIE",
+   "forms": [
+    "nie",
+    "nié"
+   ],
+   "rank": 8276,
+   "clue": "Conteste"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 3,
+   "answer": "SES",
+   "forms": [
+    "ses"
+   ],
+   "rank": 66,
+   "clue": "Les siens"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 7,
+   "answer": "LUNETTE",
+   "forms": [
+    "lunette"
+   ],
+   "rank": 14306,
+   "clue": "Instrument d'astronome"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 3,
+   "answer": "RIS",
+   "forms": [
+    "ris"
+   ],
+   "rank": 10395,
+   "clue": "Thymus du veau"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 4,
+   "answer": "SUBI",
+   "forms": [
+    "subi"
+   ],
+   "rank": 4023,
+   "clue": "Enduré"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 4,
+   "answer": "REAL",
+   "forms": [
+    "réal"
+   ],
+   "rank": 13902,
+   "clue": "Ancienne pièce espagnole"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 5,
+   "n": 3,
+   "answer": "CES",
+   "forms": [
+    "ces"
+   ],
+   "rank": 73,
+   "clue": "Démonstratif pluriel"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 7,
+   "n": 3,
+   "answer": "EAU",
+   "forms": [
+    "eau"
+   ],
+   "rank": 286,
+   "clue": "Elle coule du robinet"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 6,
+   "n": 3,
+   "answer": "EUT",
+   "forms": [
+    "eut",
+    "eût"
+   ],
+   "rank": 2420,
+   "clue": "Posséda"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 8,
+   "n": 4,
+   "answer": "LIEU",
+   "forms": [
+    "lieu"
+   ],
+   "rank": 220,
+   "clue": "Endroit"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 4,
+   "n": 2,
+   "answer": "OS",
+   "forms": [
+    "os"
+   ],
+   "rank": 2631,
+   "clue": "Élément du squelette"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 5,
+   "n": 2,
+   "answer": "RE",
+   "forms": [
+    "ré"
+   ],
+   "rank": 5605,
+   "clue": "Note après do"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 7,
+   "n": 2,
+   "answer": "IL",
+   "forms": [
+    "il"
+   ],
+   "rank": 17,
+   "clue": "Pronom masculin"
+  }
+ ]
+}

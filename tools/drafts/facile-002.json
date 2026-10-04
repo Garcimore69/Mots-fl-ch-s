@@ -1,0 +1,272 @@
+{
+ "id": "facile-002",
+ "level": "facile",
+ "cols": 7,
+ "rows": 8,
+ "layout": [
+  "#.#.#.#",
+  "....#..",
+  "#......",
+  "...#...",
+  "#....##",
+  "..#....",
+  "#......",
+  "......."
+ ],
+ "solution": [
+  "#M#J#J#",
+  "TOME#ON",
+  "#BOUCLE",
+  "LIT#RIZ",
+  "#LOGO##",
+  "CI#AIME",
+  "#TERRES",
+  "DESSERT"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 4,
+   "answer": "TOME",
+   "forms": [
+    "tome",
+    "tomé"
+   ],
+   "rank": 2800,
+   "clue": "Volume d'une collection"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 5,
+   "n": 2,
+   "answer": "ON",
+   "forms": [
+    "on"
+   ],
+   "rank": 28,
+   "clue": "Pronom indéfini"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 6,
+   "answer": "BOUCLE",
+   "forms": [
+    "boucle",
+    "bouclé"
+   ],
+   "rank": 3900,
+   "clue": "Mèche frisée"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 3,
+   "answer": "LIT",
+   "forms": [
+    "lit"
+   ],
+   "rank": 770,
+   "clue": "Meuble pour dormir"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 4,
+   "n": 3,
+   "answer": "RIZ",
+   "forms": [
+    "riz"
+   ],
+   "rank": 4180,
+   "clue": "Céréale d'Asie"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 4,
+   "answer": "LOGO",
+   "forms": [
+    "logo"
+   ],
+   "rank": 4687,
+   "clue": "Emblème d'une marque"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 2,
+   "answer": "CI",
+   "forms": [
+    "ci"
+   ],
+   "rank": 263,
+   "clue": "Ici, en abrégé"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 3,
+   "n": 4,
+   "answer": "AIME",
+   "forms": [
+    "aime",
+    "aimé"
+   ],
+   "rank": 239,
+   "clue": "Adore"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 6,
+   "answer": "TERRES",
+   "forms": [
+    "terres"
+   ],
+   "rank": 1977,
+   "clue": "Domaines agricoles"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 7,
+   "answer": "DESSERT",
+   "forms": [
+    "dessert"
+   ],
+   "rank": 5965,
+   "clue": "Fin du repas"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 8,
+   "answer": "MOBILITE",
+   "forms": [
+    "mobilité"
+   ],
+   "rank": 5262,
+   "clue": "Facilité à se déplacer"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 3,
+   "answer": "JEU",
+   "forms": [
+    "jeu"
+   ],
+   "rank": 266,
+   "clue": "Partie de cartes"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 4,
+   "answer": "JOLI",
+   "forms": [
+    "joli"
+   ],
+   "rank": 2425,
+   "clue": "Mignon"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 4,
+   "answer": "MOTO",
+   "forms": [
+    "moto"
+   ],
+   "rank": 3779,
+   "clue": "Deux-roues à moteur"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 3,
+   "answer": "NEZ",
+   "forms": [
+    "nez"
+   ],
+   "rank": 1826,
+   "clue": "Il sent les odeurs"
+  },
+  {
+   "d": "V",
+   "r": 2,
+   "c": 4,
+   "n": 6,
+   "answer": "CROIRE",
+   "forms": [
+    "croire"
+   ],
+   "rank": 578,
+   "clue": "Avoir la foi"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 3,
+   "n": 4,
+   "answer": "GARS",
+   "forms": [
+    "gars"
+   ],
+   "rank": 527,
+   "clue": "Garçons, familièrement"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 5,
+   "n": 3,
+   "answer": "MER",
+   "forms": [
+    "mer"
+   ],
+   "rank": 656,
+   "clue": "Grande étendue salée"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 6,
+   "n": 3,
+   "answer": "EST",
+   "forms": [
+    "est"
+   ],
+   "rank": 7,
+   "clue": "Point cardinal"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 2,
+   "n": 2,
+   "answer": "ES",
+   "forms": [
+    "es",
+    "ès"
+   ],
+   "rank": 143,
+   "clue": "Tu ... gentil"
+  }
+ ]
+}

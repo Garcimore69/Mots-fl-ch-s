@@ -1,0 +1,248 @@
+{
+ "id": "facile-006",
+ "level": "facile",
+ "cols": 7,
+ "rows": 8,
+ "layout": [
+  "#.#.#.#",
+  ".......",
+  "#......",
+  "...#...",
+  "#.#....",
+  "...#...",
+  "#...#..",
+  "...#..."
+ ],
+ "solution": [
+  "#A#A#P#",
+  "PREMIER",
+  "#TRISTE",
+  "LIE#LIT",
+  "#S#DATE",
+  "ETE#MIN",
+  "#EUX#OU",
+  "EST#UNE"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 7,
+   "answer": "PREMIER",
+   "forms": [
+    "premier"
+   ],
+   "rank": 144,
+   "clue": "Le tout début"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 6,
+   "answer": "TRISTE",
+   "forms": [
+    "triste"
+   ],
+   "rank": 1541,
+   "clue": "Pas gai"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 3,
+   "answer": "LIE",
+   "forms": [
+    "lié",
+    "lie"
+   ],
+   "rank": 2524,
+   "clue": "Attaché"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 4,
+   "n": 3,
+   "answer": "LIT",
+   "forms": [
+    "lit"
+   ],
+   "rank": 770,
+   "clue": "Meuble de la chambre"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 3,
+   "n": 4,
+   "answer": "DATE",
+   "forms": [
+    "date",
+    "daté"
+   ],
+   "rank": 579,
+   "clue": "Jour du calendrier"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 3,
+   "answer": "ETE",
+   "forms": [
+    "été"
+   ],
+   "rank": 64,
+   "clue": "Saison chaude"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 4,
+   "n": 3,
+   "answer": "MIN",
+   "forms": [
+    "min"
+   ],
+   "rank": 2134,
+   "clue": "Soixante secondes, en bref"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 3,
+   "answer": "EUX",
+   "forms": [
+    "eux"
+   ],
+   "rank": 219,
+   "clue": "Pronom pluriel"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 5,
+   "n": 2,
+   "answer": "OU",
+   "forms": [
+    "ou",
+    "où"
+   ],
+   "rank": 44,
+   "clue": "Ceci ... cela"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 3,
+   "answer": "EST",
+   "forms": [
+    "est"
+   ],
+   "rank": 7,
+   "clue": "Levant"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 4,
+   "n": 3,
+   "answer": "UNE",
+   "forms": [
+    "une"
+   ],
+   "rank": 15,
+   "clue": "Article féminin"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 8,
+   "answer": "ARTISTES",
+   "forms": [
+    "artistes"
+   ],
+   "rank": 1503,
+   "clue": "Peintres ou musiciens"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 3,
+   "answer": "AMI",
+   "forms": [
+    "ami"
+   ],
+   "rank": 664,
+   "clue": "Copain"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 8,
+   "answer": "PETITION",
+   "forms": [
+    "pétition"
+   ],
+   "rank": 5596,
+   "clue": "Signatures pour une cause"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 3,
+   "answer": "ERE",
+   "forms": [
+    "ère"
+   ],
+   "rank": 3814,
+   "clue": "Longue période"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 5,
+   "answer": "ISLAM",
+   "forms": [
+    "islam"
+   ],
+   "rank": 2084,
+   "clue": "Religion musulmane"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 7,
+   "answer": "RETENUE",
+   "forms": [
+    "retenue"
+   ],
+   "rank": 5495,
+   "clue": "Discrétion ou punition"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 2,
+   "n": 3,
+   "answer": "EUT",
+   "forms": [
+    "eut",
+    "eût"
+   ],
+   "rank": 2420,
+   "clue": "Posséda"
+  }
+ ]
+}

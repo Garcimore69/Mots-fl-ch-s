@@ -1,0 +1,264 @@
+{
+ "id": "facile-001",
+ "level": "facile",
+ "cols": 7,
+ "rows": 8,
+ "layout": [
+  "#.#.#.#",
+  "..#....",
+  "##.....",
+  ".....#.",
+  "#......",
+  "...#...",
+  "#...#..",
+  "......."
+ ],
+ "solution": [
+  "#E#C#E#",
+  "OH#HATE",
+  "##BASES",
+  "AVONS#P",
+  "#ESTIME",
+  "FUT#SEC",
+  "#VOL#NE",
+  "MENACES"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 2,
+   "answer": "OH",
+   "forms": [
+    "oh"
+   ],
+   "rank": 672,
+   "clue": "Marque la surprise"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 3,
+   "n": 4,
+   "answer": "HATE",
+   "forms": [
+    "hâte",
+    "hâté"
+   ],
+   "rank": 3139,
+   "clue": "Grande impatience"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 2,
+   "n": 5,
+   "answer": "BASES",
+   "forms": [
+    "bases",
+    "basés"
+   ],
+   "rank": 2704,
+   "clue": "Fondations"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 5,
+   "answer": "AVONS",
+   "forms": [
+    "avons"
+   ],
+   "rank": 241,
+   "clue": "Possédons"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 6,
+   "answer": "ESTIME",
+   "forms": [
+    "estime",
+    "estimé"
+   ],
+   "rank": 1951,
+   "clue": "Considération"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 3,
+   "answer": "FUT",
+   "forms": [
+    "fut",
+    "fût"
+   ],
+   "rank": 312,
+   "clue": "Tonneau"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 4,
+   "n": 3,
+   "answer": "SEC",
+   "forms": [
+    "sec"
+   ],
+   "rank": 2896,
+   "clue": "Sans humidité"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 3,
+   "answer": "VOL",
+   "forms": [
+    "vol"
+   ],
+   "rank": 928,
+   "clue": "Larcin ou trajet en avion"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 5,
+   "n": 2,
+   "answer": "NE",
+   "forms": [
+    "ne",
+    "né"
+   ],
+   "rank": 29,
+   "clue": "Venu au monde"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 7,
+   "answer": "MENACES",
+   "forms": [
+    "menaces",
+    "menacés"
+   ],
+   "rank": 4162,
+   "clue": "Intimidations"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 2,
+   "answer": "EH",
+   "forms": [
+    "eh"
+   ],
+   "rank": 1159,
+   "clue": "Interjection d'appel"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 5,
+   "answer": "CHANT",
+   "forms": [
+    "chant"
+   ],
+   "rank": 3904,
+   "clue": "Mélodie de la voix"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 3,
+   "answer": "ETE",
+   "forms": [
+    "été"
+   ],
+   "rank": 64,
+   "clue": "Saison chaude"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 5,
+   "answer": "ASSIS",
+   "forms": [
+    "assis"
+   ],
+   "rank": 3236,
+   "clue": "Pas debout"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 7,
+   "answer": "ESPECES",
+   "forms": [
+    "espèces"
+   ],
+   "rank": 1863,
+   "clue": "Argent liquide"
+  },
+  {
+   "d": "V",
+   "r": 2,
+   "c": 2,
+   "n": 6,
+   "answer": "BOSTON",
+   "forms": [
+    "boston"
+   ],
+   "rank": 5632,
+   "clue": "Grande ville des États-Unis"
+  },
+  {
+   "d": "V",
+   "r": 3,
+   "c": 1,
+   "n": 5,
+   "answer": "VEUVE",
+   "forms": [
+    "veuve"
+   ],
+   "rank": 5620,
+   "clue": "A perdu son mari"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 5,
+   "n": 4,
+   "answer": "MENE",
+   "forms": [
+    "mène",
+    "mené"
+   ],
+   "rank": 2786,
+   "clue": "Conduit"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 3,
+   "n": 2,
+   "answer": "LA",
+   "forms": [
+    "la",
+    "là"
+   ],
+   "rank": 1,
+   "clue": "Note de musique"
+  }
+ ]
+}

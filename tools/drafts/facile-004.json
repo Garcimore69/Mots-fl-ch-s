@@ -1,0 +1,261 @@
+{
+ "id": "facile-004",
+ "level": "facile",
+ "cols": 7,
+ "rows": 8,
+ "layout": [
+  "#.#.#.#",
+  "....#..",
+  "##.....",
+  "...#...",
+  "#......",
+  "....#..",
+  "#......",
+  "......."
+ ],
+ "solution": [
+  "#I#U#A#",
+  "CLAN#VA",
+  "##REMET",
+  "BAR#ONT",
+  "#VERITE",
+  "FETE#UN",
+  "#RECORD",
+  "MESURES"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 4,
+   "answer": "CLAN",
+   "forms": [
+    "clan"
+   ],
+   "rank": 4411,
+   "clue": "Tribu écossaise"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 5,
+   "n": 2,
+   "answer": "VA",
+   "forms": [
+    "va"
+   ],
+   "rank": 83,
+   "clue": "Se rend"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 2,
+   "n": 5,
+   "answer": "REMET",
+   "forms": [
+    "remet"
+   ],
+   "rank": 4369,
+   "clue": "Repose à sa place"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 3,
+   "answer": "BAR",
+   "forms": [
+    "bar"
+   ],
+   "rank": 1900,
+   "clue": "Café où l'on boit un verre"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 4,
+   "n": 3,
+   "answer": "ONT",
+   "forms": [
+    "ont"
+   ],
+   "rank": 60,
+   "clue": "Possèdent"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 6,
+   "answer": "VERITE",
+   "forms": [
+    "vérité"
+   ],
+   "rank": 798,
+   "clue": "Contraire du mensonge"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 4,
+   "answer": "FETE",
+   "forms": [
+    "fête",
+    "fêté"
+   ],
+   "rank": 942,
+   "clue": "Anniversaire ou réveillon"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 5,
+   "n": 2,
+   "answer": "UN",
+   "forms": [
+    "un"
+   ],
+   "rank": 11,
+   "clue": "Premier chiffre"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 6,
+   "answer": "RECORD",
+   "forms": [
+    "record"
+   ],
+   "rank": 2243,
+   "clue": "Meilleure performance"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 7,
+   "answer": "MESURES",
+   "forms": [
+    "mesures",
+    "mesurés"
+   ],
+   "rank": 1065,
+   "clue": "Dimensions"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 2,
+   "answer": "IL",
+   "forms": [
+    "il"
+   ],
+   "rank": 17,
+   "clue": "Pronom masculin"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 3,
+   "answer": "UNE",
+   "forms": [
+    "une"
+   ],
+   "rank": 15,
+   "clue": "Première page du journal"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 8,
+   "answer": "AVENTURE",
+   "forms": [
+    "aventure",
+    "aventuré"
+   ],
+   "rank": 2111,
+   "clue": "Expédition pleine de surprises"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 7,
+   "answer": "ARRETES",
+   "forms": [
+    "arrêtés",
+    "arrêtes"
+   ],
+   "rank": 4827,
+   "clue": "Stoppés"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 7,
+   "answer": "ATTENDS",
+   "forms": [
+    "attends"
+   ],
+   "rank": 1467,
+   "clue": "Patiente !"
+  },
+  {
+   "d": "V",
+   "r": 2,
+   "c": 4,
+   "n": 3,
+   "answer": "MOI",
+   "forms": [
+    "moi"
+   ],
+   "rank": 72,
+   "clue": "Pronom de la première personne"
+  },
+  {
+   "d": "V",
+   "r": 3,
+   "c": 1,
+   "n": 5,
+   "answer": "AVERE",
+   "forms": [
+    "avère",
+    "avéré"
+   ],
+   "rank": 5730,
+   "clue": "Confirmé"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 3,
+   "n": 4,
+   "answer": "RECU",
+   "forms": [
+    "reçu"
+   ],
+   "rank": 812,
+   "clue": "Ticket de caisse"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 4,
+   "n": 2,
+   "answer": "OR",
+   "forms": [
+    "or"
+   ],
+   "rank": 372,
+   "clue": "Métal précieux jaune"
+  }
+ ]
+}

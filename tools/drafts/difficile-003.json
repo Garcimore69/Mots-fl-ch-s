@@ -1,0 +1,402 @@
+{
+ "id": "difficile-003",
+ "level": "difficile",
+ "cols": 9,
+ "rows": 11,
+ "layout": [
+  "#.#.#.#.#",
+  "....#....",
+  "#........",
+  ".......#.",
+  "##.......",
+  "..#..#...",
+  "#...#....",
+  "......#..",
+  "##.......",
+  ".........",
+  "#........"
+ ],
+ "solution": [
+  "#D#R#O#S#",
+  "DOPE#BAIN",
+  "#DISPERSE",
+  "BONSOIR#C",
+  "##SUPREME",
+  "VU#SE#TAS",
+  "#SOC#BALS",
+  "HESITE#AI",
+  "##ETABLIT",
+  "GENEREUSE",
+  "#STRESSER"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 4,
+   "answer": "DOPE",
+   "forms": [
+    "dope",
+    "dopé"
+   ],
+   "rank": 29314,
+   "clue": "Stimule artificiellement"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 5,
+   "n": 4,
+   "answer": "BAIN",
+   "forms": [
+    "bain"
+   ],
+   "rank": 2308,
+   "clue": "Trempette dans la baignoire"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 8,
+   "answer": "DISPERSE",
+   "forms": [
+    "dispersé",
+    "disperse"
+   ],
+   "rank": 21911,
+   "clue": "Éparpille"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 7,
+   "answer": "BONSOIR",
+   "forms": [
+    "bonsoir"
+   ],
+   "rank": 4312,
+   "clue": "Salut du crépuscule"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 2,
+   "n": 7,
+   "answer": "SUPREME",
+   "forms": [
+    "suprême"
+   ],
+   "rank": 3294,
+   "clue": "Au plus haut degré"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 2,
+   "answer": "VU",
+   "forms": [
+    "vu"
+   ],
+   "rank": 155,
+   "clue": "Remarqué"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 3,
+   "n": 2,
+   "answer": "SE",
+   "forms": [
+    "se"
+   ],
+   "rank": 35,
+   "clue": "Pronom réfléchi"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 6,
+   "n": 3,
+   "answer": "TAS",
+   "forms": [
+    "tas"
+   ],
+   "rank": 2391,
+   "clue": "Pile en désordre"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 3,
+   "answer": "SOC",
+   "forms": [
+    "soc"
+   ],
+   "rank": 18597,
+   "clue": "Lame de charrue"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 5,
+   "n": 4,
+   "answer": "BALS",
+   "forms": [
+    "bals"
+   ],
+   "rank": 25214,
+   "clue": "Fêtes dansantes"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 6,
+   "answer": "HESITE",
+   "forms": [
+    "hésite",
+    "hésité"
+   ],
+   "rank": 3854,
+   "clue": "Balance avant de choisir"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 7,
+   "n": 2,
+   "answer": "AI",
+   "forms": [
+    "ai",
+    "aï"
+   ],
+   "rank": 43,
+   "clue": "Paresseux des arbres"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 2,
+   "n": 7,
+   "answer": "ETABLIT",
+   "forms": [
+    "établit"
+   ],
+   "rank": 5094,
+   "clue": "Fixe ou fonde"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 9,
+   "answer": "GENEREUSE",
+   "forms": [
+    "généreuse"
+   ],
+   "rank": 11062,
+   "clue": "Elle donne sans compter"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 1,
+   "n": 8,
+   "answer": "STRESSER",
+   "forms": [
+    "stresser"
+   ],
+   "rank": 25500,
+   "clue": "Mettre sous pression"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 4,
+   "answer": "DODO",
+   "forms": [
+    "dodo"
+   ],
+   "rank": 14450,
+   "clue": "Sommeil d'enfant"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 11,
+   "answer": "RESSUSCITER",
+   "forms": [
+    "ressusciter"
+   ],
+   "rank": 22399,
+   "clue": "Revenir à la vie"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 5,
+   "answer": "OBEIR",
+   "forms": [
+    "obéir"
+   ],
+   "rank": 10366,
+   "clue": "Se plier aux ordres"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 3,
+   "answer": "SIS",
+   "forms": [
+    "sis"
+   ],
+   "rank": 19156,
+   "clue": "Situés, en droit"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 4,
+   "answer": "PINS",
+   "forms": [
+    "pins"
+   ],
+   "rank": 10921,
+   "clue": "Arbres des Landes"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 6,
+   "answer": "ARRETA",
+   "forms": [
+    "arrêta"
+   ],
+   "rank": 20358,
+   "clue": "Mit fin à"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 10,
+   "answer": "NECESSITER",
+   "forms": [
+    "nécessiter"
+   ],
+   "rank": 25416,
+   "clue": "Exiger, requérir"
+  },
+  {
+   "d": "V",
+   "r": 2,
+   "c": 4,
+   "n": 4,
+   "answer": "POPE",
+   "forms": [
+    "pope"
+   ],
+   "rank": 22978,
+   "clue": "Prêtre orthodoxe"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 7,
+   "n": 7,
+   "answer": "MALAISE",
+   "forms": [
+    "malaise",
+    "malaisé"
+   ],
+   "rank": 6215,
+   "clue": "Trouble passager"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 1,
+   "n": 3,
+   "answer": "USE",
+   "forms": [
+    "use",
+    "usé"
+   ],
+   "rank": 10096,
+   "clue": "Élimé"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 2,
+   "n": 5,
+   "answer": "OSENT",
+   "forms": [
+    "osent"
+   ],
+   "rank": 11818,
+   "clue": "Ont le cran"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 5,
+   "n": 5,
+   "answer": "BEBES",
+   "forms": [
+    "bébés"
+   ],
+   "rank": 5108,
+   "clue": "Nourrissons"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 4,
+   "n": 4,
+   "answer": "TARE",
+   "forms": [
+    "taré",
+    "tare"
+   ],
+   "rank": 15520,
+   "clue": "Défaut ou poids de l'emballage"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 6,
+   "n": 3,
+   "answer": "LUS",
+   "forms": [
+    "lus"
+   ],
+   "rank": 12612,
+   "clue": "Déchiffrés"
+  },
+  {
+   "d": "V",
+   "r": 9,
+   "c": 1,
+   "n": 2,
+   "answer": "ES",
+   "forms": [
+    "es",
+    "ès"
+   ],
+   "rank": 143,
+   "clue": "Tu ... là ?"
+  }
+ ]
+}

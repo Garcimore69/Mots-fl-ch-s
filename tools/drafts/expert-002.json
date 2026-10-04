@@ -1,0 +1,383 @@
+{
+ "id": "expert-002",
+ "level": "expert",
+ "cols": 9,
+ "rows": 11,
+ "layout": [
+  "#.#.#.#.#",
+  ".........",
+  "#.....#..",
+  "......#..",
+  "#...#....",
+  ".........",
+  "##.....#.",
+  "...#.#...",
+  "#...#....",
+  ".........",
+  "#........"
+ ],
+ "solution": [
+  "#H#I#C#K#",
+  "REINSERER",
+  "#ANSES#LE",
+  "AUDITS#VU",
+  "#MIS#EPIS",
+  "RESTERONS",
+  "##CESAR#I",
+  "BAR#T#TIR",
+  "#MEC#PERE",
+  "CATAMARAN",
+  "#SEPARAIT"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 9,
+   "answer": "REINSERER",
+   "forms": [
+    "réinsérer"
+   ],
+   "rank": 58911,
+   "clue": "Remettre dans le circuit"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 5,
+   "answer": "ANSES",
+   "forms": [
+    "anses"
+   ],
+   "rank": 22161,
+   "clue": "Petites baies"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 7,
+   "n": 2,
+   "answer": "LE",
+   "forms": [
+    "le"
+   ],
+   "rank": 2,
+   "clue": "Article"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 6,
+   "answer": "AUDITS",
+   "forms": [
+    "audits"
+   ],
+   "rank": 40610,
+   "clue": "Examens de comptes"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 7,
+   "n": 2,
+   "answer": "VU",
+   "forms": [
+    "vu"
+   ],
+   "rank": 155,
+   "clue": "Constaté"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 1,
+   "n": 3,
+   "answer": "MIS",
+   "forms": [
+    "mis"
+   ],
+   "rank": 338,
+   "clue": "Posé"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 5,
+   "n": 4,
+   "answer": "EPIS",
+   "forms": [
+    "épis"
+   ],
+   "rank": 26233,
+   "clue": "Têtes de céréales"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 9,
+   "answer": "RESTERONS",
+   "forms": [
+    "resterons"
+   ],
+   "rank": 32564,
+   "clue": "Ne partirons pas"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 2,
+   "n": 5,
+   "answer": "CESAR",
+   "forms": [
+    "césar"
+   ],
+   "rank": 4479,
+   "clue": "Statuette du cinéma français"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 3,
+   "answer": "BAR",
+   "forms": [
+    "bar"
+   ],
+   "rank": 1900,
+   "clue": "Comptoir ou poisson"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 6,
+   "n": 3,
+   "answer": "TIR",
+   "forms": [
+    "tir"
+   ],
+   "rank": 2968,
+   "clue": "Coup au but"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 1,
+   "n": 3,
+   "answer": "MEC",
+   "forms": [
+    "mec"
+   ],
+   "rank": 518,
+   "clue": "Type, familièrement"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 5,
+   "n": 4,
+   "answer": "PERE",
+   "forms": [
+    "père"
+   ],
+   "rank": 302,
+   "clue": "Il a des enfants"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 9,
+   "answer": "CATAMARAN",
+   "forms": [
+    "catamaran"
+   ],
+   "rank": 44358,
+   "clue": "Voilier à deux coques"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 1,
+   "n": 8,
+   "answer": "SEPARAIT",
+   "forms": [
+    "séparait"
+   ],
+   "rank": 32613,
+   "clue": "Mettait à distance"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 6,
+   "answer": "HEAUME",
+   "forms": [
+    "heaume"
+   ],
+   "rank": 54000,
+   "clue": "Casque de chevalier"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 7,
+   "answer": "INSISTE",
+   "forms": [
+    "insiste",
+    "insisté"
+   ],
+   "rank": 5466,
+   "clue": "Revient à la charge"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 7,
+   "answer": "CESSERA",
+   "forms": [
+    "cessera"
+   ],
+   "rank": 22508,
+   "clue": "Prendra fin"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 6,
+   "answer": "KELVIN",
+   "forms": [
+    "kelvin"
+   ],
+   "rank": 36459,
+   "clue": "Degré absolu"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 10,
+   "answer": "INDISCRETE",
+   "forms": [
+    "indiscrète"
+   ],
+   "rank": 50292,
+   "clue": "Elle met son nez partout"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 4,
+   "n": 3,
+   "answer": "SET",
+   "forms": [
+    "set"
+   ],
+   "rank": 6757,
+   "clue": "Manche au tennis"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 10,
+   "answer": "REUSSIRENT",
+   "forms": [
+    "réussirent"
+   ],
+   "rank": 39029,
+   "clue": "Atteignirent leur but"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 6,
+   "n": 7,
+   "answer": "PORTERA",
+   "forms": [
+    "portera"
+   ],
+   "rank": 9892,
+   "clue": "Soutiendra"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 4,
+   "n": 3,
+   "answer": "EST",
+   "forms": [
+    "est"
+   ],
+   "rank": 7,
+   "clue": "Levant"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 1,
+   "n": 4,
+   "answer": "AMAS",
+   "forms": [
+    "amas"
+   ],
+   "rank": 11518,
+   "clue": "Tas"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 7,
+   "n": 4,
+   "answer": "IRAI",
+   "forms": [
+    "irai"
+   ],
+   "rank": 5993,
+   "clue": "Me rendrai"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 3,
+   "n": 3,
+   "answer": "CAP",
+   "forms": [
+    "cap"
+   ],
+   "rank": 2028,
+   "clue": "Pointe ou direction"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 5,
+   "n": 3,
+   "answer": "PAR",
+   "forms": [
+    "par"
+   ],
+   "rank": 27,
+   "clue": "Préposition de passage"
+  },
+  {
+   "d": "V",
+   "r": 9,
+   "c": 4,
+   "n": 2,
+   "answer": "MA",
+   "forms": [
+    "ma"
+   ],
+   "rank": 92,
+   "clue": "Possessif féminin"
+  }
+ ]
+}

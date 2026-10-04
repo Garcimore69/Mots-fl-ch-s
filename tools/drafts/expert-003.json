@@ -1,0 +1,408 @@
+{
+ "id": "expert-003",
+ "level": "expert",
+ "cols": 9,
+ "rows": 11,
+ "layout": [
+  "#.#.#.#.#",
+  "....#....",
+  "#........",
+  "....#....",
+  "##...#...",
+  "........#",
+  "#.....##.",
+  "..#.#....",
+  "#...#...#",
+  ".........",
+  "#........"
+ ],
+ "solution": [
+  "#M#C#P#D#",
+  "COCO#REAL",
+  "#TANGIBLE",
+  "NOMS#SELS",
+  "##ETE#NEE",
+  "SERRURES#",
+  "#PAUSE##M",
+  "NU#I#ALFA",
+  "#RAS#GAI#",
+  "DECISIVES",
+  "#RETIRERA"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 4,
+   "answer": "COCO",
+   "forms": [
+    "coco"
+   ],
+   "rank": 6171,
+   "clue": "Noix des tropiques"
+  },
+  {
+   "d": "H",
+   "r": 1,
+   "c": 5,
+   "n": 4,
+   "answer": "REAL",
+   "forms": [
+    "réal"
+   ],
+   "rank": 13902,
+   "clue": "Monnaie d'Ancien Régime ibérique"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 8,
+   "answer": "TANGIBLE",
+   "forms": [
+    "tangible"
+   ],
+   "rank": 21479,
+   "clue": "Qu'on peut toucher du doigt"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 4,
+   "answer": "NOMS",
+   "forms": [
+    "noms"
+   ],
+   "rank": 1395,
+   "clue": "Ils désignent"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 5,
+   "n": 4,
+   "answer": "SELS",
+   "forms": [
+    "sels"
+   ],
+   "rank": 16736,
+   "clue": "Ils piquent ou raniment"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 2,
+   "n": 3,
+   "answer": "ETE",
+   "forms": [
+    "été"
+   ],
+   "rank": 64,
+   "clue": "Saison des grandes vacances"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 6,
+   "n": 3,
+   "answer": "NEE",
+   "forms": [
+    "née"
+   ],
+   "rank": 2725,
+   "clue": "Ainsi appelée à la naissance"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 8,
+   "answer": "SERRURES",
+   "forms": [
+    "serrures"
+   ],
+   "rank": 25125,
+   "clue": "Elles attendent la clé"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 5,
+   "answer": "PAUSE",
+   "forms": [
+    "pause"
+   ],
+   "rank": 2729,
+   "clue": "Arrêt momentané"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 2,
+   "answer": "NU",
+   "forms": [
+    "nu"
+   ],
+   "rank": 3696,
+   "clue": "Dans le plus simple appareil"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 5,
+   "n": 4,
+   "answer": "ALFA",
+   "forms": [
+    "alfa"
+   ],
+   "rank": 23752,
+   "clue": "Graminée à papier"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 1,
+   "n": 3,
+   "answer": "RAS",
+   "forms": [
+    "ras"
+   ],
+   "rank": 6545,
+   "clue": "Coupé très court"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 5,
+   "n": 3,
+   "answer": "GAI",
+   "forms": [
+    "gai"
+   ],
+   "rank": 12581,
+   "clue": "Enjoué"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 9,
+   "answer": "DECISIVES",
+   "forms": [
+    "décisives"
+   ],
+   "rank": 14020,
+   "clue": "Qui tranchent la question"
+  },
+  {
+   "d": "H",
+   "r": 10,
+   "c": 1,
+   "n": 8,
+   "answer": "RETIRERA",
+   "forms": [
+    "retirera"
+   ],
+   "rank": 43117,
+   "clue": "Reprendra son dû"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 4,
+   "answer": "MOTO",
+   "forms": [
+    "moto"
+   ],
+   "rank": 3779,
+   "clue": "Bécane"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 11,
+   "answer": "CONSTRUISIT",
+   "forms": [
+    "construisit"
+   ],
+   "rank": 36330,
+   "clue": "Bâtit"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 4,
+   "answer": "PRIS",
+   "forms": [
+    "pris"
+   ],
+   "rank": 301,
+   "clue": "Occupé ou capturé"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 6,
+   "answer": "DALLES",
+   "forms": [
+    "dalles"
+   ],
+   "rank": 18706,
+   "clue": "Pavés de grande taille"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 6,
+   "answer": "CAMERA",
+   "forms": [
+    "caméra"
+   ],
+   "rank": 2985,
+   "clue": "Œil du tournage"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 5,
+   "answer": "EBENE",
+   "forms": [
+    "ébène"
+   ],
+   "rank": 30434,
+   "clue": "Bois noir précieux"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 4,
+   "answer": "LESE",
+   "forms": [
+    "lésé",
+    "lèse"
+   ],
+   "rank": 38405,
+   "clue": "Porte préjudice à"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 4,
+   "n": 3,
+   "answer": "EUS",
+   "forms": [
+    "eus"
+   ],
+   "rank": 13590,
+   "clue": "Possédas"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 1,
+   "n": 6,
+   "answer": "EPURER",
+   "forms": [
+    "épurer"
+   ],
+   "rank": 57037,
+   "clue": "Débarrasser des impuretés"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 5,
+   "n": 6,
+   "answer": "REAGIR",
+   "forms": [
+    "réagir"
+   ],
+   "rank": 4283,
+   "clue": "Répondre au quart de tour"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 8,
+   "n": 2,
+   "answer": "MA",
+   "forms": [
+    "ma"
+   ],
+   "rank": 92,
+   "clue": "Possessif"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 6,
+   "n": 4,
+   "answer": "LAVE",
+   "forms": [
+    "lave",
+    "lavé"
+   ],
+   "rank": 5995,
+   "clue": "Elle coule du volcan"
+  },
+  {
+   "d": "V",
+   "r": 7,
+   "c": 7,
+   "n": 4,
+   "answer": "FIER",
+   "forms": [
+    "fier"
+   ],
+   "rank": 2364,
+   "clue": "Plein d'orgueil"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 2,
+   "n": 3,
+   "answer": "ACE",
+   "forms": [
+    "ace"
+   ],
+   "rank": 14188,
+   "clue": "Coup de maître au service"
+  },
+  {
+   "d": "V",
+   "r": 9,
+   "c": 4,
+   "n": 2,
+   "answer": "SI",
+   "forms": [
+    "si"
+   ],
+   "rank": 45,
+   "clue": "Note ou hypothèse"
+  },
+  {
+   "d": "V",
+   "r": 9,
+   "c": 8,
+   "n": 2,
+   "answer": "SA",
+   "forms": [
+    "sa"
+   ],
+   "rank": 56,
+   "clue": "Possessif féminin"
+  }
+ ]
+}

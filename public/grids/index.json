@@ -1,0 +1,36 @@
+{
+ "version": 1,
+ "levels": {
+  "facile": [
+   "facile-001",
+   "facile-002",
+   "facile-003",
+   "facile-004",
+   "facile-005",
+   "facile-006"
+  ],
+  "moyen": [
+   "moyen-001",
+   "moyen-002",
+   "moyen-003",
+   "moyen-004",
+   "moyen-005",
+   "moyen-006",
+   "moyen-007"
+  ],
+  "difficile": [
+   "difficile-001",
+   "difficile-002",
+   "difficile-003",
+   "difficile-004"
+  ],
+  "expert": [
+   "expert-001",
+   "expert-002",
+   "expert-003",
+   "expert-004",
+   "expert-005",
+   "expert-006"
+  ]
+ }
+}

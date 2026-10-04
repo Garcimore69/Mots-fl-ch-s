@@ -1,0 +1,84 @@
+"""Listes de filtrage du lexique (formes sans accents, en majuscules).
+
+- DEUX_LETTRES : seuls mots de 2 lettres autorisés.
+- INTERDITS : racines du vocabulaire violent, sordide, vulgaire ou sensible ;
+  tout mot qui commence par l'une d'elles est exclu.
+- ANGLICISMES : mots anglais fréquents dans les corpus français.
+- EXCLUS : mots isolés inutilisables (abréviations, onomatopées, sigles…).
+"""
+
+DEUX_LETTRES = {
+    "AN", "AU", "AI", "AS", "BU", "CE", "CI", "DE", "DO", "DU", "EH", "EN",
+    "ES", "ET", "EU", "IL", "JE", "LA", "LE", "LU", "MA", "ME", "MI", "NE",
+    "NI", "NU", "OH", "ON", "OR", "OS", "OU", "PI", "PU", "RE", "RU", "SA",
+    "SE", "SI", "SU", "TA", "TE", "TU", "UN", "VA", "VU",
+}
+
+INTERDITS = (
+    "TUER", "TUEU", "TUERI", "MEURTR", "ASSASS", "MASSAC", "VIOLEUR", "VIOLER", "TORTUR",
+    "CADAVR", "SUICID", "GENOC", "TERROR", "ATTENTAT", "EGORG", "DECAPIT",
+    "POIGNARD", "ETRANGL", "FUSILL", "NAZI", "BOMB", "OTAGE", "GUERR",
+    "SANGLANT", "MORTUAIR", "MOURU", "CRIM", "DROGU", "COCAIN", "HEROIN", "PUTE",
+    "PUTA", "SALOP", "CONNARD", "CONNASSE", "CONNERIE", "MERD", "BITE", "ENCUL", "NIQU",
+    "PEDO", "SEXE", "SEXU", "PORNO", "NEGR", "RACIS", "HAINE",
+    "FUSIL", "PISTOL", "MITRAILL", "CANCER", "SIDA", "COVID", "EPIDEM",
+    "PANDEM", "DECED", "DECES", "DEFUNT", "FUNER", "CERCUEIL", "ENTERR",
+    "AGRESS", "INCEST", "PROSTIT", "ESCLAV", "KIDNAPP", "POISON", "EMPOISON",
+    "ALCOOLI", "CHIER", "FOUTR", "BORDEL", "ENFOIR", "BATARD", "CRETIN",
+    "DEBIL", "IDIOT", "MONGOL", "TAPETTE", "GOUIN", "COUILL", "NICHON",
+    "ORGASM", "JIHAD", "DJIHAD", "ISLAMIS", "TALIBAN", "DAECH", "SHOAH",
+    "HOLOCAUST", "CARNAGE", "HOMICID", "INFANTICID", "MUTIL", "AMPUT",
+    "VOMI", "CREVER", "PENDAI", "CULS", "ABATTOIR", "BOURREAU", "SUPPLIC",
+    "GUILLOTIN", "BRUTALIS", "MALTRAIT", "HARCEL", "PEDOPHIL",
+)
+
+# Mots courts exclus exactement (trop proches d'une racine interdite).
+INTERDITS_EXACTS = {"VIOL", "VIOLS", "VIOLEE", "VIOLEES", "MORT", "MORTE", "MORTES", "PEDE", "PEDES", "TUE", "TUEE", "TUES", "TUEES", "TUA", "TUAI", "CUL",
+                    "MORTS", "ARME", "ARMES", "SANG", "VIOLE", "CON", "CONS",
+                    "PENDU", "PENDUS", "BAISE", "BAISER"}
+
+ANGLICISMES = {
+    "THE", "AND", "YOU", "FOR", "ARE", "WITH", "THIS", "THAT", "FROM", "HAVE",
+    "WAS", "BUT", "NOT", "ALL", "CAN", "ONE", "OUT", "GET", "NEW", "NOW",
+    "LOVE", "LIKE", "JUST", "BEST", "GOOD", "TIME", "WEEK", "YEAR", "LIVE",
+    "SHOW", "NEWS", "FAKE", "COOL", "LOOK", "HOT", "BIG", "TOP", "STAR",
+    "TEAM", "GAME", "GAMES", "FUN", "LOL", "MDR", "YES", "WAY", "WEB",
+    "BLOG", "POST", "TWEET", "SMART", "HAPPY", "BABY", "BOY", "GIRL", "GIRLS",
+    "MAN", "MEN", "KING", "QUEEN", "OFF", "ONLINE", "FREE", "DAY", "NIGHT",
+    "BOOK", "HOME", "HOUSE", "WORLD", "MUSIC", "PARTY", "STORY", "SEXY",
+    "WHAT", "WHO", "WHY", "HOW", "WHEN", "THEY", "WILL", "WOULD", "YOUR",
+    "OUR", "HIS", "HER", "SHE", "HIM", "OKAY", "BYE", "SORRY", "PLEASE",
+    "THANKS", "HELLO", "HEY", "WOW", "OMG", "FUCK", "SHIT", "DAMN", "HELL",
+    "KILL", "DEAD", "DEATH", "GUN", "WAR", "SEE", "THEN", "THERE", "SOME",
+    "MORE", "OVER", "BACK", "ONLY", "MAKE", "KNOW", "TAKE", "WANT", "NEED",
+    "FEEL", "THINK", "LIFE", "LOW",
+}
+
+EXCLUS = {
+    "QU", "CA", "PQ", "MR", "MME", "MLLE", "ETC", "CF", "VS", "JPP", "PTDR",
+    "SVP", "STP", "BCP", "TJR", "TJRS", "PK", "PCQ", "DSL", "OKLM", "WESH",
+    "OUAIS", "OUAI", "BAH", "BEN", "EUH", "HUM", "HMM", "HAHA", "HIHI",
+    "HEHE", "ARF", "PFF", "TSS", "AHAH", "OHOH", "XD", "AHA", "OHE", "HEU",
+}
+
+# Relecture du lexique (3–4 lettres) : sigles, abréviations, noms propres,
+# mots étrangers ou familiers inadaptés.
+EXCLUS |= set("""
+PRO MAX VAN USA GAY JOB MAC BOB DER DAN BOX NEO VAR NES SIR PUT FOX JAN HAN
+ROB TEE BOT HUI LET GAP DAM REF FAT BIT FIG GUS BEY REM IVE DIA SIL KAN AXA
+KIL CAB ALE YIN DIV PEP LEV MIR MOL DRY HAI LEI RIA REA NIA LAT BRU JAR HEM
+OLE RUS BOP DEY LAD HUA LUT TUS SUA DEP LOB FIC BUE HEP BER GIS TIF OIS RUA
+BEA FLA GOY AVE JAS SEN BIC SIC
+JEAN ROCK JACK FOOT PROF MAIL OPEN BILL MARK BOSS HALL LORD GANG LADY CASH
+DATA CUBA LUIS BOYS PACK GAZA FULL HOMO BUSH PUNK GAYS BANG USER EDIT BOOM
+AFRO TRIP LAND JOBS SPOT KHAN LISE PROS RING ROSA COKE SELF TANK CASA MAYA
+MUNI UNIT MATH SLIP RUSH YANG ANUS BOBO SUCE JANV CARS CREA FOLK ANAL HAIR
+MIMI SUEZ LIMA MONO CHIE MUST BITS DECA TATA DROP LEGS CAKE TARA TELL POOL
+CIAO DORA KICK LULU KIKI META SLOW TOTO BIBI EXIT TUNE ZIZI NOPE GOAL DING
+AIDA DADA MESS GODE FUEL VIDA FION MATA ACTA TORY MACH BATH BOTS CANA PEPE
+SALA SANA DOCK LORI VANS HUMA BOCK TILT TATE SWAP LOLO KALI BEUR LOCH TIAN
+MIRO ASTI VAPE ARMA SOMA MUSA BEAT REAC CRAC SOUL FANA TYPO DOTA CURA FARO
+KILT PEUL MACS NECK RADA KAMI SIMA SEMA KAWA TALA TOMA BINE STEM COIT FOUT
+CACA PIPI GAGA MALI INDE RENE BUSINESS NOEL MARS CIAO PAPY PAPI ABOUT EME IEME
+""".split())
+INTERDITS_EXACTS |= {"TUEZ", "TUONS", "TUENT", "TUAIT", "TUERA"}

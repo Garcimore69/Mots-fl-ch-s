@@ -1,0 +1,350 @@
+{
+ "id": "moyen-001",
+ "level": "moyen",
+ "cols": 9,
+ "rows": 10,
+ "layout": [
+  "#.#.#.#.#",
+  ".........",
+  "#...#....",
+  ".......#.",
+  "#.#.#....",
+  "...#.#...",
+  "#........",
+  ".......#.",
+  "#....#...",
+  ".....#..."
+ ],
+ "solution": [
+  "#C#D#L#I#",
+  "COLONIALE",
+  "#MIN#ORES",
+  "AMENENT#S",
+  "#U#A#SIRE",
+  "ANA#L#SON",
+  "#APPELAIT",
+  "OURAGAN#I",
+  "#TETE#ACE",
+  "PESER#TEL"
+ ],
+ "words": [
+  {
+   "d": "H",
+   "r": 1,
+   "c": 0,
+   "n": 9,
+   "answer": "COLONIALE",
+   "forms": [
+    "coloniale"
+   ],
+   "rank": 8822,
+   "clue": "Liée à l'empire d'outre-mer"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 1,
+   "n": 3,
+   "answer": "MIN",
+   "forms": [
+    "min"
+   ],
+   "rank": 2134,
+   "clue": "Soixante secondes, en bref"
+  },
+  {
+   "d": "H",
+   "r": 2,
+   "c": 5,
+   "n": 4,
+   "answer": "ORES",
+   "forms": [
+    "ores"
+   ],
+   "rank": 13852,
+   "clue": "D'... et déjà"
+  },
+  {
+   "d": "H",
+   "r": 3,
+   "c": 0,
+   "n": 7,
+   "answer": "AMENENT",
+   "forms": [
+    "amènent"
+   ],
+   "rank": 13308,
+   "clue": "Conduisent jusqu'ici"
+  },
+  {
+   "d": "H",
+   "r": 4,
+   "c": 5,
+   "n": 4,
+   "answer": "SIRE",
+   "forms": [
+    "sire"
+   ],
+   "rank": 9913,
+   "clue": "Titre adressé au souverain"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 0,
+   "n": 3,
+   "answer": "ANA",
+   "forms": [
+    "ana"
+   ],
+   "rank": 10112,
+   "clue": "Recueil de bons mots"
+  },
+  {
+   "d": "H",
+   "r": 5,
+   "c": 6,
+   "n": 3,
+   "answer": "SON",
+   "forms": [
+    "son"
+   ],
+   "rank": 41,
+   "clue": "Bruit ou enveloppe du grain"
+  },
+  {
+   "d": "H",
+   "r": 6,
+   "c": 1,
+   "n": 8,
+   "answer": "APPELAIT",
+   "forms": [
+    "appelait"
+   ],
+   "rank": 4305,
+   "clue": "Téléphonait"
+  },
+  {
+   "d": "H",
+   "r": 7,
+   "c": 0,
+   "n": 7,
+   "answer": "OURAGAN",
+   "forms": [
+    "ouragan"
+   ],
+   "rank": 13026,
+   "clue": "Tempête tropicale"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 1,
+   "n": 4,
+   "answer": "TETE",
+   "forms": [
+    "tête",
+    "tète",
+    "tété"
+   ],
+   "rank": 236,
+   "clue": "Caboche"
+  },
+  {
+   "d": "H",
+   "r": 8,
+   "c": 6,
+   "n": 3,
+   "answer": "ACE",
+   "forms": [
+    "ace"
+   ],
+   "rank": 14188,
+   "clue": "Service gagnant"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 0,
+   "n": 5,
+   "answer": "PESER",
+   "forms": [
+    "peser"
+   ],
+   "rank": 8750,
+   "clue": "Mettre sur la balance"
+  },
+  {
+   "d": "H",
+   "r": 9,
+   "c": 6,
+   "n": 3,
+   "answer": "TEL",
+   "forms": [
+    "tel"
+   ],
+   "rank": 572,
+   "clue": "Pareil"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 1,
+   "n": 10,
+   "answer": "COMMUNAUTE",
+   "forms": [
+    "communauté"
+   ],
+   "rank": 801,
+   "clue": "Ensemble de personnes unies"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 3,
+   "n": 5,
+   "answer": "DONNA",
+   "forms": [
+    "donna"
+   ],
+   "rank": 5024,
+   "clue": "Fit un cadeau"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 5,
+   "n": 5,
+   "answer": "LIONS",
+   "forms": [
+    "lions"
+   ],
+   "rank": 7455,
+   "clue": "Fauves à crinière"
+  },
+  {
+   "d": "V",
+   "r": 0,
+   "c": 7,
+   "n": 3,
+   "answer": "ILE",
+   "forms": [
+    "île"
+   ],
+   "rank": 1130,
+   "clue": "Terre entourée d'eau"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 2,
+   "n": 3,
+   "answer": "LIE",
+   "forms": [
+    "lié",
+    "lie"
+   ],
+   "rank": 2524,
+   "clue": "Dépôt au fond du vin"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 6,
+   "n": 9,
+   "answer": "ARTISANAT",
+   "forms": [
+    "artisanat"
+   ],
+   "rank": 10450,
+   "clue": "Métiers manuels traditionnels"
+  },
+  {
+   "d": "V",
+   "r": 1,
+   "c": 8,
+   "n": 9,
+   "answer": "ESSENTIEL",
+   "forms": [
+    "essentiel"
+   ],
+   "rank": 2072,
+   "clue": "Indispensable"
+  },
+  {
+   "d": "V",
+   "r": 4,
+   "c": 7,
+   "n": 3,
+   "answer": "ROI",
+   "forms": [
+    "roi"
+   ],
+   "rank": 546,
+   "clue": "Pièce maîtresse des échecs"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 2,
+   "n": 5,
+   "answer": "APRES",
+   "forms": [
+    "après",
+    "âpres"
+   ],
+   "rank": 75,
+   "clue": "Plus tard"
+  },
+  {
+   "d": "V",
+   "r": 5,
+   "c": 4,
+   "n": 5,
+   "answer": "LEGER",
+   "forms": [
+    "léger"
+   ],
+   "rank": 2627,
+   "clue": "Pas lourd"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 3,
+   "n": 4,
+   "answer": "PATE",
+   "forms": [
+    "pâte",
+    "pâté"
+   ],
+   "rank": 5695,
+   "clue": "Base de la tarte"
+  },
+  {
+   "d": "V",
+   "r": 6,
+   "c": 5,
+   "n": 2,
+   "answer": "LA",
+   "forms": [
+    "la",
+    "là"
+   ],
+   "rank": 1,
+   "clue": "À cet endroit"
+  },
+  {
+   "d": "V",
+   "r": 8,
+   "c": 7,
+   "n": 2,
+   "answer": "CE",
+   "forms": [
+    "ce"
+   ],
+   "rank": 24,
+   "clue": "Démonstratif"
+  }
+ ]
+}
