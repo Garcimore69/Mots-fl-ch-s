@@ -57,7 +57,19 @@ export async function settingsScreen(root: HTMLElement) {
             go('');
           },
         }, 'Effacer mes données'),
-        h('div', { class: 'foot' }, `Mots fléchés · version ${__APP_VERSION__}`)),
+        h('div', { class: 'foot' }, `Mots fléchés · version ${__APP_VERSION__}`),
+        h('button', {
+          class: 'link-btn',
+          onclick: async () => {
+            if (!navigator.onLine) return toast('Pas de connexion');
+            toast('Recherche de mise à jour…');
+            try {
+              await app.sw?.update();
+              // Si une nouvelle version s'installe, l'appli se recharge d'elle-même.
+              setTimeout(() => { if (!app.sw?.installing && !app.sw?.waiting) toast('Vous avez la dernière version'); }, 2500);
+            } catch { toast('Vérification impossible'); }
+          },
+        }, 'Vérifier les mises à jour')),
     ));
   };
   render();

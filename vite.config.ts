@@ -35,6 +35,9 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,woff2,png,svg,json}'],
         navigateFallback: 'index.html',
         cleanupOutdatedCaches: true,
+        // La nouvelle version prend la main tout de suite (l'appli se recharge d'elle-même).
+        skipWaiting: true,
+        clientsClaim: true,
       },
     }),
   ],

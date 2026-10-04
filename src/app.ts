@@ -4,6 +4,7 @@ import { DEFAULT_SETTINGS, type Settings, getSettings, saveSettings } from './st
 export const app = {
   settings: { ...DEFAULT_SETTINGS } as Settings,
   cleanup: null as null | (() => void),
+  sw: null as null | ServiceWorkerRegistration,
 };
 
 export async function loadSettings() {

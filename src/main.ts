@@ -38,7 +38,17 @@ async function start() {
   // Persistance demandée pour que le navigateur ne purge pas la sauvegarde.
   navigator.storage?.persist?.();
   // Nouvelle version (nouvelles grilles) : appliquée automatiquement.
-  registerSW({ immediate: true });
+  // Vérifie aussi les mises à jour à chaque retour au premier plan et toutes les 30 min.
+  registerSW({
+    immediate: true,
+    onRegisteredSW(_url, r) {
+      if (!r) return;
+      app.sw = r;
+      const check = () => { if (navigator.onLine) r.update().catch(() => {}); };
+      setInterval(check, 30 * 60 * 1000);
+      document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') check(); });
+    },
+  });
   // Changement de jour pendant que l'appli est ouverte : bonus quotidien.
   document.addEventListener('visibilitychange', async () => {
     if (document.visibilityState !== 'visible') return;
