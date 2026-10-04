@@ -176,32 +176,18 @@ export class Game {
     return true;
   }
 
+  /** Après une saisie, le curseur reste toujours dans le mot en cours. */
   private advance(s: Slot, k: number) {
     const pos = s.cells.indexOf(k);
     this.d = s.d;
     const rest = s.cells.slice(pos + 1).filter((x) => !this.locked(x));
     if (this.opts.skipFilled) {
-      const empty = rest.find((x) => !this.letters[x]) ?? s.cells.find((x) => !this.letters[x]);
-      if (empty !== undefined) { this.cell = empty; return; }
-      // Mot complet : on passe au prochain mot incomplet.
-      const n = this.slots.length;
-      for (let j = 1; j <= n; j++) {
-        const t = this.slots[(s.i + j) % n];
-        if (t.cells.some((x) => !this.letters[x])) { this.pickSlot(t); return; }
-      }
-      this.cell = k;
+      // Prochaine case vide du mot (après la case saisie, puis depuis le début du mot).
+      const empty = rest.find((x) => !this.letters[x]) ?? s.cells.find((x) => !this.letters[x] && !this.locked(x));
+      this.cell = empty ?? k;
       return;
     }
-    if (rest[0] !== undefined) { this.cell = rest[0]; return; }
-    // Fin du mot : si le mot est juste (verrouillé), on passe au mot suivant incomplet.
-    if (this.solved.has(k)) {
-      const n = this.slots.length;
-      for (let j = 1; j <= n; j++) {
-        const t = this.slots[(s.i + j) % n];
-        if (t.cells.some((x) => !this.letters[x])) { this.pickSlot(t); return; }
-      }
-    }
-    this.cell = k;
+    this.cell = rest[0] ?? k;
   }
 
   erase() {

@@ -9,7 +9,7 @@ type BoolKey = { [K in keyof Settings]: Settings[K] extends boolean ? K : never 
 const OPTS: [BoolKey, string, string][] = [
   ['vibration', 'Vibration', 'À chaque lettre et fin de mot'],
   ['sounds', 'Sons', 'Effets discrets'],
-  ['skipFilled', 'Sauter les cases remplies', 'Le curseur passe à la case vide suivante'],
+  ['skipFilled', 'Sauter les cases remplies', 'Le curseur va à la case vide suivante du mot'],
   ['noNet', 'Mode sans filet', 'Erreurs montrées seulement en fin de grille'],
   ['bigClues', 'Définitions en grand', 'Texte des cases plus lisible'],
 ];

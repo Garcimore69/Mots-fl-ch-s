@@ -73,12 +73,15 @@ describe('Game', () => {
     expect(h.letters.join('')).toBe(sol.replace(/#/g, ''));
   });
 
-  it('sauter les cases remplies : passe au mot incomplet suivant', () => {
-    const g = new Game(grid(), { ...opts, skipFilled: true });
-    const w = g.slots.find((x) => x.d === 'H' && x.r === 1 && x.c === 7)!; // MA
-    g.pickSlot(w);
-    g.type('M'); g.type('A');
-    expect(g.current().i).not.toBe(w.i);
+  it('fin de mot : le curseur reste dans le mot en cours', () => {
+    for (const skipFilled of [true, false]) {
+      const g = new Game(grid(), { ...opts, skipFilled });
+      const w = g.slots.find((x) => x.d === 'H' && x.r === 1 && x.c === 7)!; // MA
+      g.pickSlot(w);
+      g.type('M'); g.type('A');
+      expect(g.current().i).toBe(w.i);
+      expect(g.cell).toBe(w.cells[1]);
+    }
   });
 
   it('un mot entièrement juste est verrouillé', () => {
