@@ -209,6 +209,7 @@ export async function playScreen(root: HTMLElement, key: string) {
   async function hint() {
     if (game.done) return;
     if (game.hinted.has(game.cell)) return toast('Lettre déjà révélée');
+    if (game.solved.has(game.cell)) return toast('Ce mot est déjà trouvé');
     if (game.letters[game.cell] && game.letters[game.cell] === game.sol[game.cell] && !s.noNet) return toast('Cette lettre est déjà juste');
     if (aides <= 0) return toast('Plus d’aide : terminez une grille pour en gagner');
     if (!(await useAide())) return;

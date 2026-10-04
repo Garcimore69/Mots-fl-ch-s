@@ -22,7 +22,7 @@ Décisions produit : `claude/decisions.md` dans le projet claude.ai (à relire a
 
 ## Pipeline des grilles (`tools/`)
 1. `python3 tools/build_lexicon.py` — lexique `tools/data/lex.json` (wordfreq ∩ dictionnaire, filtres de `tools/wordlists.py`). Nécessite `pip install wordfreq` et `tools/data/dict-fr.json` (index.json du paquet npm `an-array-of-french-words`, non versionné).
-2. `python3 tools/gen.py <niveau> <n> --seed S` — brouillons dans `tools/drafts/` (définitions vides). Évite les mots de 4+ lettres déjà utilisés.
+2. `python3 tools/gen.py <niveau> <n> --seed S` — brouillons dans `tools/drafts/` (définitions vides). Évite les mots de 5+ lettres déjà utilisés.
 3. Relecture des mots, rédaction des définitions dans `tools/defs/<id>.txt` (`RÉPONSE | définition`), puis `python3 tools/clues.py tools/drafts/<id>.json tools/defs/<id>.txt`. Mot inadapté → l'ajouter à `wordlists.py`, reconstruire le lexique, supprimer le brouillon et régénérer (les numéros libres sont réutilisés).
 4. `python3 tools/validate.py tools/drafts/*.json` puis `python3 tools/publish.py` → `public/grids/` + `index.json`.
 

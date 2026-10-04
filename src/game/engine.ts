@@ -26,6 +26,7 @@ export class Game {
   letters: string[];
   hinted: Set<number>;
   errors: Set<number>;
+  solved = new Set<number>(); // cases des mots entièrement justes (verrouillées)
   wrongEver: Set<number>;
   hintsUsed: number;
   elapsed: number;
@@ -53,6 +54,7 @@ export class Game {
     this.hintsUsed = p?.hintsUsed ?? 0;
     this.elapsed = p?.elapsed ?? 0;
     this.done = p?.done ?? false;
+    if (!this.done) this.refresh(); // verrous et erreurs recalculés depuis les lettres
     const first = this.slots[0];
     this.cell = p?.cur.cell ?? first.cells[0];
     this.d = p?.cur.d ?? first.d;
@@ -102,14 +104,15 @@ export class Game {
     this.pickSlot(this.slots[(this.current().i + delta + n) % n]);
   }
 
-  private locked(k: number) { return this.hinted.has(k) || this.done; }
+  /** Case non modifiable : révélée par une aide, ou appartenant à un mot entièrement juste. */
+  locked(k: number) { return this.done || this.hinted.has(k) || this.solved.has(k); }
 
   /** Saisie d'une lettre dans la case courante. */
   type(ch: string): GameEvent[] {
     if (this.done) return [];
     const s = this.current();
     let k = this.cell;
-    // Case verrouillée (aide) : on écrit dans la case modifiable suivante du mot.
+    // Case verrouillée : on écrit dans la case modifiable suivante du mot.
     if (this.locked(k)) {
       const pos = s.cells.indexOf(k);
       const nxt = s.cells.slice(pos + 1).find((x) => !this.locked(x));
@@ -119,40 +122,51 @@ export class Game {
     return this.put(k, ch, false);
   }
 
-  /** Aide : révèle la lettre de la case courante. Renvoie false si inutile. */
+  /** Aide : révèle la lettre de la case courante. Renvoie null si inutile. */
   hint(): GameEvent[] | null {
-    if (this.done || this.hinted.has(this.cell)) return null;
+    if (this.locked(this.cell)) return null;
     this.hintsUsed++;
     return this.put(this.cell, this.sol[this.cell], true);
+  }
+
+  private full(w: Slot) { return w.cells.every((x) => this.letters[x]); }
+  private right(w: Slot) { return w.cells.every((x) => this.letters[x] === this.sol[x]); }
+
+  /**
+   * Recalcule les verrous et les erreurs à partir des lettres :
+   * - un mot entièrement écrit et juste est verrouillé ;
+   * - une lettre fausse n'est signalée que si un mot qui la contient est entièrement écrit
+   *   (mode sans filet : seulement quand toute la grille est remplie).
+   * Renvoie true si une erreur nouvellement signalée apparaît.
+   */
+  refresh(): boolean {
+    this.solved.clear();
+    for (const w of this.slots) if (this.full(w) && this.right(w)) w.cells.forEach((x) => this.solved.add(x));
+    const before = new Set(this.errors);
+    this.errors.clear();
+    const gridFull = this.fill().filled === this.fill().total;
+    for (const w of this.slots) {
+      if (!this.full(w) || (this.opts.noNet && !gridFull)) continue;
+      for (const x of w.cells) if (this.letters[x] !== this.sol[x]) this.errors.add(x);
+    }
+    let fresh = false;
+    for (const x of this.errors) { this.wrongEver.add(x); if (!before.has(x)) fresh = true; }
+    return fresh;
   }
 
   private put(k: number, ch: string, isHint: boolean): GameEvent[] {
     const ev: GameEvent[] = ['letter'];
     const s = this.current();
     this.letters[k] = ch;
-    this.errors.delete(k);
     if (isHint) this.hinted.add(k);
     for (const d of ['H', 'V'] as Dir[]) {
       const w = this.slotAt(k, d);
-      if (w && w.cells.every((x) => this.letters[x])) {
-        ev.push('word');
-        if (!this.opts.noNet && this.flag(w.cells)) ev.push('error');
-      }
+      if (w && this.full(w)) ev.push('word');
     }
+    if (this.refresh()) ev.push('error');
     if (this.checkComplete()) { ev.push('complete'); return ev; }
-    if (this.opts.noNet && this.fill().filled === this.fill().total) {
-      if (this.flag(this.slots.flatMap((x) => x.cells))) ev.push('error');
-    }
     this.advance(s, k);
     return ev;
-  }
-
-  private flag(cells: number[]) {
-    let bad = false;
-    for (const x of cells) if (this.letters[x] && this.letters[x] !== this.sol[x]) {
-      this.errors.add(x); this.wrongEver.add(x); bad = true;
-    }
-    return bad;
   }
 
   private checkComplete() {
@@ -165,7 +179,7 @@ export class Game {
   private advance(s: Slot, k: number) {
     const pos = s.cells.indexOf(k);
     this.d = s.d;
-    const rest = s.cells.slice(pos + 1).filter((x) => !this.hinted.has(x));
+    const rest = s.cells.slice(pos + 1).filter((x) => !this.locked(x));
     if (this.opts.skipFilled) {
       const empty = rest.find((x) => !this.letters[x]) ?? s.cells.find((x) => !this.letters[x]);
       if (empty !== undefined) { this.cell = empty; return; }
@@ -178,22 +192,31 @@ export class Game {
       this.cell = k;
       return;
     }
-    this.cell = rest[0] ?? k;
+    if (rest[0] !== undefined) { this.cell = rest[0]; return; }
+    // Fin du mot : si le mot est juste (verrouillé), on passe au mot suivant incomplet.
+    if (this.solved.has(k)) {
+      const n = this.slots.length;
+      for (let j = 1; j <= n; j++) {
+        const t = this.slots[(s.i + j) % n];
+        if (t.cells.some((x) => !this.letters[x])) { this.pickSlot(t); return; }
+      }
+    }
+    this.cell = k;
   }
 
   erase() {
     if (this.done) return;
     const s = this.current();
     let k = this.cell;
-    if (!this.letters[k] || this.hinted.has(k)) {
+    if (!this.letters[k] || this.locked(k)) {
       const pos = s.cells.indexOf(k);
-      const prev = s.cells.slice(0, pos).reverse().find((x) => !this.hinted.has(x));
+      const prev = s.cells.slice(0, pos).reverse().find((x) => !this.locked(x) && this.letters[x]);
       if (prev === undefined) return;
       k = prev;
     }
     this.letters[k] = '';
-    this.errors.delete(k);
     this.cell = k;
     this.d = s.d;
+    this.refresh();
   }
 }

@@ -80,4 +80,41 @@ describe('Game', () => {
     g.type('M'); g.type('A');
     expect(g.current().i).not.toBe(w.i);
   });
+
+  it('un mot entièrement juste est verrouillé', () => {
+    const g = new Game(grid(), opts);
+    const w = g.slots.find((x) => x.d === 'H' && x.r === 1 && x.c === 0)!; // HUMIDE
+    g.pickSlot(w);
+    for (const ch of 'HUMIDE') g.type(ch);
+    expect(w.cells.every((k) => g.locked(k))).toBe(true);
+    g.cell = w.cells[2]; g.d = 'H';
+    expect(g.type('Z')).toEqual(['blocked']);
+    expect(g.letters[w.cells[2]]).toBe('M');
+    g.cell = w.cells[5]; g.d = 'H';
+    g.erase();
+    expect(g.letters.slice(w.cells[0], w.cells[5] + 1).join('')).toBe('HUMIDE');
+  });
+
+  it('pas d’erreur affichée tant que le mot n’est pas entier', () => {
+    const g = new Game(grid(), opts);
+    const w = g.slots.find((x) => x.d === 'H' && x.r === 1 && x.c === 0)!;
+    g.pickSlot(w);
+    for (const ch of 'XUMID') g.type(ch);
+    expect(g.errors.size).toBe(0);
+    g.type('E');
+    expect(g.errors.has(w.cells[0])).toBe(true);
+    // on efface une autre lettre : le mot redevient incomplet, l'erreur disparaît
+    g.cell = w.cells[3]; g.d = 'H';
+    g.erase();
+    expect(g.errors.size).toBe(0);
+  });
+
+  it('reprise : verrous et erreurs recalculés', () => {
+    const g = new Game(grid(), opts);
+    const w = g.slots.find((x) => x.d === 'H' && x.r === 3 && x.c === 0)!; // CONSCIENT
+    g.pickSlot(w);
+    for (const ch of 'CONSCIENT') g.type(ch);
+    const h = new Game(grid(), opts, g.progress());
+    expect(w.cells.every((k) => h.locked(k))).toBe(true);
+  });
 });
